@@ -1,4 +1,4 @@
-> This document is an almost unmodified version of the [original Hermeneuti.ca tutorial](http://hermeneuti.ca/intro-workshop), archived here for reference.
+> This document is an almost unmodified version of the [original Hermeneuti.ca tutorial](http://hermeneuti.ca/intro-workshop). It is archived here for reference. While many links are dead, the platform is very much alive… (Aurélien Berra, 2018-05-29)
 
 # Introduction to Voyant Tools
 
@@ -25,15 +25,15 @@ Play with it yourself. Or try this cloud for [Shakespeare](http://voyant-tools.
 
 ## Using an environment of tools
 
-Now let’s look at this [Voyant Display](http://voyant-tools.org/?corpus=frankenstein&stopList=stop.en.taporware.txt). This is the default skin that combines a bunch of tools that work
+Now let’s look at this [Voyant display](http://voyant-tools.org/?corpus=frankenstein&stopList=stop.en.taporware.txt). This is the default skin that combines a bunch of tools that work
 together. To use this more complex display you need to understand views that combine tools:
 
-- Each tool has a panel that can be minimized/maximized
-- Each panel has options
-- Each panel has ways you can manipulate it or search it
-- Panels will trigger updates in other panels
+- Each tool has a panel that can be minimized/maximized.
+- Each panel has options.
+- Each panel has ways you can manipulate it or search it.
+- Panels will trigger updates in other panels.
 
-Try playing with the default environment of Voyant with a single text and then with a [Shakespeare Corpus](http://voyant-tools.org/?corpus=shakespeare). Note the extra panels when you have a collection of texts.
+Try playing with the default environment of Voyant with a single text and then with a [Shakespeare corpus](http://voyant-tools.org/?corpus=shakespeare). Note the extra panels when you have a collection of texts.
 
 ## Try your own text
 
@@ -50,7 +50,7 @@ Voyant gives you a number of ways to index a text for studying it with Voyant:
 
 There are a number of extensions and variants of Voyant that you might want to know about:
 
-- <http://v1.voyant-tools.org/> is Version 1.0 of Voyant if you liked that more or need some feature there.
+- <http://v1.voyant-tools.org/> is version 1.0 of Voyant if you liked that more or need some feature there.
 - <http://voyant-tools.org/?lang=fr> is a French version of Voyant (there are [other language versions](http://voyant-tools.org/docs/#!/guide/languages) coming online as colleagues translate the interface).
 - [Hermeneutica](http://hermeneuti.ca/) shows examples of how Voyant panels can be dropped into online essays.
 - <http://voyant-tools.org/dtoc/?corpus=regenerations&curatorId=regenerations> is a specialized interface of Voyant for a volume that uses underlying markup.
