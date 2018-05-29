@@ -1,8 +1,8 @@
-# This document is an almost unmodified version of the original [Hermeneuti.ca tutorial](http://hermeneuti.ca/intro-workshop)
-
-![voyant-logo_0.png]
-
 # Introduction to Voyant Tools
+
+![Voyant logo](voyant-logo_0.png)
+
+### This document is an almost unmodified version of the [original Hermeneuti.ca tutorial](http://hermeneuti.ca/intro-workshop)
 
 This script for a workshop is designed to show you how to use the Voyant
 Tools text analysis environment. It will run between one and two hours. 
