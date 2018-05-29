@@ -2,7 +2,7 @@
 
 # Introduction to Voyant Tools
 
-![Voyant logo](voyant-logo_0.png)
+![](../images/voyant-logo_0.png)
 
 This script for a workshop is designed to show you how to use the Voyant Tools text analysis environment. It will run between one and two hours.
 
