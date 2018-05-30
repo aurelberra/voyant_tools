@@ -51,6 +51,65 @@ Voyant vous permet de charger un texte de plusieurs manières :
 * Vous pouvez **charger** un texte à partir d’un fichier.
 * Vous pouvez **ouvrir** l’un des corpus qui sont disponibles par défaut, au moyen du bouton `Ouvrir`.
 
+### Corpus des participants
+
+#### Époques
+textes hagiographiques médiévaux
+textes hagiographiques
+édition critique d'un texte de Christine de Pizan
+texte didactique de Christine de Pizan
+textes en ancien et moyen français
+partition musicale (MS Turin Biblioteca Nazionale T.III.2)
+commentaires humanistes latins sur l'Art poétique d'Horace
+manuscrits du XVIe siècle
+200 000 vers de poésie du XVIe siècle (corpus XML, en partie lemmatisé)
+chroniques missionnaires
+journaux du XVIIIe siècle
+corpus de textes esthétique allemande deuxième moitié du XIXe siècle
+Zola, Rougon Macquart
+Maeterlinck
+ouvrages d'historiographie imprimés
+romans du XXe siècle 
+100 œuvres de littérature de l'imaginaire pour jeunes-adultes à succès
+texte ultra-contemporain de François Bon
+corpus de pages Facebook
+corpus bruts Youtube
+corpus à partir de flux rss 'print' et 'web'
+
+#### Types
+corpus philosophique (Leibniz, Hume, Quine, Goodman, Putnam, Searle, Davidson, Kripke, etc.)
+documents juridiques
+nouvelles de médias en ligne et messages de réseaux sociaux numériques
+corpus interviews
+entretiens
+
+#### Langues
+allemand
+anglais
+français (ancien)
+français (moyen)
+français (moderne)
+français (contemporain)
+latin
+
+#### Médias
+images de manuscrits
+images d'imprimés
+textes numériques
+textes et images
+
+### Corpus de démonstration
+* français – via URL
+    * Lautréamont, Les Chants de Maldoror http://athena.unige.ch/athena/lautreamont/laut_mal.html [stopwords, "yeux" et "corps", pas de modification de la tokénisation ("n'est" et "l'homme")]
+    * Rabelais, Pantagruel http://athena.unige.ch/athena/rabelais/rabelais_pantagruel.html [pas de stopwords adaptés, distribution du nom de Pantagruel]
+* latin – via fichiers
+    * César, La Guerre des Gaules, texte du PHI5 nettoyé [sélectionner liste de stopwords, pas de lemmatisation]
+    * César, La Guerre des Gaules, texte lemmatisé avec le CLTK puis un peu nettoyé (erreurs comme "ito" pour "iter", "itaque", "item"… ; rectifié "edo" pour "sum", "reor" pour "res", "bellus" pour "bellum", "neo" pour "ne", "dius" pour "dies", et quelques autres formes ; lemmatisé les entités nommées "Gallia", "Caesar" et "Romani/Romanus") ["con" est la trace des choix du lemmatiseur ("con-")]
+* français+espagnol, médias Web ou réseaux sociaux – via fichiers HTML + via fichiers XML [exclu 4 fichiers XML car erreur de lecture de certains nœuds]
+    * DHQ 12.1 : humanités numériques hispanophones et francophones www.digitalhumanities.org/dhq/vol/12/1/ [liste de stopwords "multilingue", édition des listes (enlever par exemple "digital http humanities dhq university")]
+* allemand
+    * Goethe, Faust I http://beta.faustedition.net/print/faust1.all
+
 ![](../images/voyant-logo_0.png)
 
 ## Références et exemples
