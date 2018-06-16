@@ -128,6 +128,8 @@ Le code de Voyant Tools est publié en *open source* : <https://github.com/sgsin
 
 La version serveur de Voyant Tools peut être téléchargée sur <https://github.com/sgsinclair/VoyantServer/#voyant-server>. Elle vous permet de faire fonctionner localement la plateforme.
 
+Un tutoriel destiné à server de base pour l’organisation d’ateliers ou de formations est en cours de rédaction : <https://voyant-tools.org/docs/#!/guide/tutorial>.
+
 Vous pouvez contacter les concepteurs : Geoffrey Rockwell (<geoffrey.rockwell@ualberta.ca>) et Stéfan Sinclair (<stefan.sinclair@mcgill.ca>). En ce qui concerne la version francophone, n’hésitez pas à écrire à Aurélien Berra (<aurelien.berra@parisnanterre.fr>).
 
 Voyant a un compte sur Twitter, [@VoyantTools](https://twitter.com/VoyantTools), qui vous fera découvrir les usages que d’autres utilisateurs font de la plateforme.
