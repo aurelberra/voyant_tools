@@ -8,6 +8,16 @@
 
 <img src="../images/hermeneutica_cover.jpg" style="width: 300px;"/>
 
+## Préparatifs
+
+Je vous recommande vivement d’installer la version serveur de Voyant Tools sur votre machine : <https://github.com/sgsinclair/VoyantServer/#voyant-server>. Elle vous permettra de faire fonctionner la plateforme localement, et donc sans besoin d’une connexion Internet, sans partage de données automatique ou subreptice, et surtout plus vite et plus souplement.
+
+Si vous souhaitez explorer un corpus qui vous est familier, il vous suffit de disposer d’un ou de plusieurs fichiers dans un format courant (texte brut de préférence, éventuellement HTML ou XML, voire PDF), ou bien de connaître l’URL d’une page où le texte est accessible librement.
+
+---
+
+`### Ci-dessous, contenu en cours d’élaboration… ###`
+
 ## Programme de l’atelier
 
 * Observer un texte à diverses distances
@@ -54,53 +64,53 @@ Voyant vous permet de charger un texte de plusieurs manières :
 ### Corpus des participants
 
 #### Époques
-textes hagiographiques médiévaux
-textes hagiographiques
-édition critique d'un texte de Christine de Pizan
-texte didactique de Christine de Pizan
-textes en ancien et moyen français
-partition musicale (MS Turin Biblioteca Nazionale T.III.2)
-commentaires humanistes latins sur l'Art poétique d'Horace
-manuscrits du XVIe siècle
-200 000 vers de poésie du XVIe siècle (corpus XML, en partie lemmatisé)
-chroniques missionnaires
-journaux du XVIIIe siècle
-corpus de textes esthétique allemande deuxième moitié du XIXe siècle
-Zola, Rougon Macquart
-Maeterlinck
-ouvrages d'historiographie imprimés
-romans du XXe siècle 
-100 œuvres de littérature de l'imaginaire pour jeunes-adultes à succès
-texte ultra-contemporain de François Bon
-corpus de pages Facebook
-corpus bruts Youtube
-corpus à partir de flux rss 'print' et 'web'
+* textes hagiographiques médiévaux
+* textes hagiographiques
+* édition critique d’un texte de Christine de Pizan
+* texte didactique de Christine de Pizan
+* textes en ancien et moyen français
+* partition musicale (MS Turin Biblioteca Nazionale T.III.2)
+* commentaires humanistes latins sur l’Art poétique d’Horace
+* manuscrits du XVIe siècle
+* 200.000 vers de poésie du XVIe siècle (corpus XML, en partie lemmatisé)
+* chroniques missionnaires
+* journaux du XVIIIe siècle
+* corpus de textes esthétique allemande deuxième moitié du XIXe siècle
+* Zola, Rougon Macquart
+* Maeterlinck
+* ouvrages d’historiographie imprimés
+* romans du XXe siècle 
+* 100 œuvres de littérature de l’imaginaire pour jeunes-adultes à succès
+* texte ultra-contemporain de François Bon
+* corpus de pages Facebook
+* corpus bruts Youtube
+* corpus à partir de flux rss "print" et "web"
 
 #### Types
-corpus philosophique (Leibniz, Hume, Quine, Goodman, Putnam, Searle, Davidson, Kripke, etc.)
-documents juridiques
-nouvelles de médias en ligne et messages de réseaux sociaux numériques
-corpus interviews
-entretiens
+* corpus philosophique (Leibniz, Hume, Quine, Goodman, Putnam, Searle, Davidson, Kripke, etc.)
+* documents juridiques
+* nouvelles de médias en ligne et messages de réseaux sociaux numériques
+* corpus interviews
+* entretiens
 
 #### Langues
-allemand
-anglais
-français (ancien)
-français (moyen)
-français (moderne)
-français (contemporain)
-latin
+* allemand
+* anglais
+* français (ancien)
+* français (moyen)
+* français (moderne)
+* français (contemporain)
+* latin
 
 #### Médias
-images de manuscrits
-images d'imprimés
-textes numériques
-textes et images
+* images de manuscrits
+* images d’imprimés
+* textes numériques
+* textes et images
 
 ### Corpus de démonstration
 * français – via URL
-    * Lautréamont, Les Chants de Maldoror http://athena.unige.ch/athena/lautreamont/laut_mal.html [stopwords, "yeux" et "corps", pas de modification de la tokénisation ("n'est" et "l'homme")]
+    * Lautréamont, Les Chants de Maldoror http://athena.unige.ch/athena/lautreamont/laut_mal.html [stopwords, "yeux" et "corps", pas de modification de la tokénisation ("n’est" et "l’homme")]
     * Rabelais, Pantagruel http://athena.unige.ch/athena/rabelais/rabelais_pantagruel.html [pas de stopwords adaptés, distribution du nom de Pantagruel]
 * latin – via fichiers
     * César, La Guerre des Gaules, texte du PHI5 nettoyé [sélectionner liste de stopwords, pas de lemmatisation]
