@@ -6,11 +6,11 @@
 
 [Voyant Tools](http://voyant-tools.org/) est un environnement de lecture et d’analyse de textes numériques. Cette plateforme fait partie d’un projet plus vaste, présenté dans ce livre : Rockwell Geoffrey et Sinclair Stéfan, *[Hermeneutica](http://hermeneuti.ca/). Computer-Assisted Interpretation in the Humanities*, Cambridge, Massachusetts, MIT Press, 2016.
 
-<img src="../images/hermeneutica_cover.jpg" style="width: 300px;"/>
+<img src="../images/hermeneutica_cover.jpg" width="300"/>
 
 ## Préparatifs
 
-1. Je vous recommande vivement d’installer la version serveur de Voyant Tools sur votre machine, en suivant ces consignes : <https://github.com/sgsinclair/VoyantServer/wiki/VoyantServer-Desktop>. Cette version vous permettra de faire fonctionner la plateforme localement, et donc sans besoin d’une connexion Internet, sans partage de données automatique ou subreptice, et surtout plus vite et plus souplement.
+1. Je vous recommande vivement d’installer la version serveur de Voyant Tools sur votre machine, en suivant ces consignes : <https://github.com/sgsinclair/VoyantServer/wiki/VoyantServer-Desktop>. Cette version vous permettra de faire fonctionner la plateforme localement, et donc sans besoin d’une connexion Internet, sans partage de données automatique ou subreptice, et surtout plus vite et plus souplement.
 
     Il s’agit simplement de télécharger et décompresser le dossier "VoyantServer2_4-M7.zip" dans le dossier où vous mettez vos applications (prenez la dernière version, quel que soit son numéro), de lancer l’application en double-cliquant sur le fichier "VoyantServer.jar" et d’attendre que votre navigateur s’ouvre à l’adresse locale par défaut, http://127.0.0.1:8888/ (appuyer sur le bouton "Open Web" a le même effet).
 
