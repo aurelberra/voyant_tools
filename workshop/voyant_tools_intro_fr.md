@@ -110,7 +110,7 @@ Voyant vous permet de charger un texte de plusieurs manières :
 * textes numériques
 * textes et images
 
-### Corpus de démonstration
+### Corpus de démonstration
 * français – via URL
     * Lautréamont, Les Chants de Maldoror http://athena.unige.ch/athena/lautreamont/laut_mal.html [stopwords, "yeux" et "corps", pas de modification de la tokénisation ("n’est" et "l’homme")]
     * Rabelais, Pantagruel http://athena.unige.ch/athena/rabelais/rabelais_pantagruel.html [pas de stopwords adaptés, distribution du nom de Pantagruel]
