@@ -22,14 +22,12 @@ Vous pouvez faire des essais avant l’atelier pour vous assurer que votre versi
 
 `### Ci-dessous, contenu en cours d’élaboration… ###`
 
-## Programme de l’atelier
+## Programme de l’atelier ![](../images/voyant-logo_0.png)
 
 * Observer un texte à diverses distances
 * Utiliser un environnement de travail numérique et ses outils
 * Faire des essais avec vos propres corpus
 * Pour en savoir plus et obtenir de l’aide
-
-![](../images/voyant-logo_0.png)
 
 ## Observez ce [nuage de mots](http://voyant-tools.org/tool/Cirrus/?corpus=frankenstein&toolFlow=contexts)
 
@@ -124,9 +122,7 @@ Voyant vous permet de charger un texte de plusieurs manières :
 * allemand
  * Goethe, Faust I http://beta.faustedition.net/print/faust1.all
 
-![](../images/voyant-logo_0.png)
-
-## Références et exemples
+## Références et exemples ![](../images/voyant-logo_0.png)
 
 Voici quelques extensions ou variantes de Voyant qui peuvent vous intéresser :
 
