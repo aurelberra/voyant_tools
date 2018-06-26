@@ -33,8 +33,6 @@ Il s’agit simplement de télécharger et décompresser le dossier « VoyantSe
 
 Vous pouvez faire des essais avant l’atelier pour vous assurer que votre version locale fonctionne aussi bien que la version en ligne, http://voyant.tools.huma-num.fr/ (miroir de https://voyant-tools.org/).
 
-`------------ Document en cours d’élaboration… ------------`
-
 
 ## 1. À propos de Voyant Tools
 
@@ -53,7 +51,7 @@ Vous pouvez faire des essais avant l’atelier pour vous assurer que votre versi
 
 ## 2. Distances de lecture
 
-**Cirrus**
+`Cirrus`
 
 Observez ce [nuage de mots](http://voyant-tools.org/tool/Cirrus/?corpus=frankenstein&toolFlow=contexts)
 
@@ -63,16 +61,16 @@ Observez ce [nuage de mots](http://voyant-tools.org/tool/Cirrus/?corpus=frankens
 
 Manipulez ce nuage à votre tour. Ou bien essayez avec ce corpus de [Shakespeare](http://voyant-tools.org/tool/Cirrus/?corpus=shakespeare&stopList=stop.en.taporware.txt&toolFlow=contexts).
 
-**Termes**/**Terms**
+`Termes`/`Terms`
 
 * tables
 * *sparklines*
 
-**Lecteur**/**Reader**
+`Lecteur`/`Reader`
 
 … et fonctions de requête
 
-**Contextes**/**Contexts**
+`Contextes`/`Contexts`
 
 … concordance
 
@@ -94,23 +92,23 @@ Il est parfois utile d’ouvrir plusieurs interfaces et de comparer des corpus (
 
 Faites des essais dans l’environnement par défaut de Voyant avec un texte unique, puis avec le [corpus de Shakespeare](http://voyant-tools.org/?corpus=shakespeare). Remarquez que des panneaux supplémentaires sont présents lorsque vous travaillez sur une collection de textes.
 
-**Résumé**/**Summary**
+`Résumé`/`Summary`
 
-**Documents**
+`Documents`
 
-**Syntagmes**/**Phrases**
+`Syntagmes`/`Phrases`
 
-**Tendances**/**Trends**
+`Tendances`/`Trends`
 
-**Corrélations**/**Correlations**
+`Corrélations`/`Correlations`
 
-**Collocations**/**Collocates**
+`Collocations`/`Collocates`
 
-**Liens**/**Links**
+`Liens`/`Links`
 
-**Nuage de points**/**Scatter plot**
+`Nuage de points`/`Scatter plot`
 
-**Thèmes**/**Topics**
+`Thèmes`/`Topics`
 
 
 ## 4. Explorez vos corpus
