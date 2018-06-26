@@ -126,19 +126,19 @@ Voyant vous permet de charger un texte de plusieurs manières :
 
 Voici quelques extensions ou variantes de Voyant qui peuvent vous intéresser :
 
-* Outre la version française, <https://voyant-tools.org/?lang=fr>, des versions dans d’[autres langues](http://voyant-tools.org/docs/# !/guide/languages) sont mises en ligne à mesure que des collègues traduisent l’interface.
+* Outre la version française, <https://voyant-tools.org/?lang=fr>, des versions dans d’[autres langues](http://voyant-tools.org/docs/#!/guide/languages) sont mises en ligne à mesure que des collègues traduisent l’interface.
 * [Hermeneutica](http://hermeneuti.ca/) montre de quelle manière on peut intégrer des panneaux de Voyant dans des essais en ligne.
 * @alia
 
 ## Pour en savoir plus et obtenir de l’aide
 
-Le manuel de Voyant est disponible à cette adresse : <http://voyant-tools.org/docs/# !/guide/start> (licence CC-BY).
+Le manuel de Voyant est disponible à cette adresse : <http://voyant-tools.org/docs/#!/guide/start> (licence CC-BY).
 
 Le code de Voyant Tools est publié en *open source* : <https://github.com/sgsinclair/Voyant> (licence GPL).
 
 La version serveur de Voyant Tools peut être téléchargée sur <https://github.com/sgsinclair/VoyantServer/#voyant-server>. Elle vous permet de faire fonctionner localement la plateforme.
 
-Un tutoriel destiné à server de base pour l’organisation d’ateliers ou de formations est en cours de rédaction : <https://voyant-tools.org/docs/# !/guide/tutorial>.
+Un tutoriel destiné à server de base pour l’organisation d’ateliers ou de formations est en cours de rédaction : <https://voyant-tools.org/docs/#!/guide/tutorial>.
 
 Vous pouvez contacter les concepteurs : Geoffrey Rockwell (<geoffrey.rockwell@ualberta.ca>) et Stéfan Sinclair (<stefan.sinclair@mcgill.ca>). En ce qui concerne la version francophone, n’hésitez pas à écrire à Aurélien Berra (<aurelien.berra@parisnanterre.fr>).
 
