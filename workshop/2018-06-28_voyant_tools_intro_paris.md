@@ -8,7 +8,18 @@
 
 <img src="../images/hermeneutica_cover.jpg" width="300"/>
 
-## Préparatifs
+---
+
+## Programme de l’atelier ![](../images/voyant-logo_0.png)
+
+* Observer un texte à diverses distances
+* Utiliser un environnement de travail numérique et ses outils
+* Faire des essais avec vos propres corpus
+* Pour en savoir plus et obtenir de l’aide
+
+---
+
+## 0. Préparatifs
 
 1. Je vous recommande vivement d’installer la version serveur de Voyant Tools sur votre machine, en suivant ces consignes : <https://github.com/sgsinclair/VoyantServer/wiki/VoyantServer-Desktop>. Cette version vous permettra de faire fonctionner la plateforme localement, et donc sans besoin d’une connexion Internet, sans partage de données automatique ou subreptice, et surtout plus vite et plus souplement.
 
@@ -18,18 +29,27 @@ Il s’agit simplement de télécharger et décompresser le dossier « VoyantSe
 
 Vous pouvez faire des essais avant l’atelier pour vous assurer que votre version locale fonctionne aussi bien que la version en ligne, http://voyant.tools.huma-num.fr/ (miroir de https://voyant-tools.org/).
 
----
+`------------ Document en cours d’élaboration… ------------`
 
-`### Ci-dessous, contenu en cours d’élaboration… ###`
+## 1. À propos de Voyant Tools
 
-## Programme de l’atelier ![](../images/voyant-logo_0.png)
+* dates du projet (*Voyeur*)
+* visée et esprit
+* Voyant Tools et moi
+    * Stéfan S., Day of DH 2010 (?) : HN anglophones
+    * enseignement : initiation à l’analyse textuelle (pastiches savants, toucher du doigt les limites)
+    * traduction française de l’interface, après une discussion sur la liste « [Digital Humanities]((https://groupes.renater.fr/sympa/info/dh)) »
+    * production de *stopwords* pour le grec et le latin
+* tension entre outil unique, à tout faire, et l’acquisition d’une culture computationnelle donnant accès à des outils spécialisés (encodage, transformation, analyse textuelle, réseaux, etc.)
+    * Voyant Tools résout cette tension par la modularité et l’évolutivité
+    * bientôt aussi des *notebooks* (Spyral)
+* vers une culture numérique et statistique mieux partagée (analyse et publication des résultats) ?
 
-* Observer un texte à diverses distances
-* Utiliser un environnement de travail numérique et ses outils
-* Faire des essais avec vos propres corpus
-* Pour en savoir plus et obtenir de l’aide
+## 2. Distances de lecture
 
-## Observez ce [nuage de mots](http://voyant-tools.org/tool/Cirrus/?corpus=frankenstein&toolFlow=contexts)
+### CIRRUS
+
+Observez ce [nuage de mots](http://voyant-tools.org/tool/Cirrus/?corpus=frankenstein&toolFlow=contexts)
 
 * Que représente à votre avis ce nuage ?
 * Quelles caractéristiques sont issues d’une quantification du texte ? Comment les autres propriétés du nuage sont-elles générées ?
@@ -37,18 +57,56 @@ Vous pouvez faire des essais avant l’atelier pour vous assurer que votre versi
 
 Manipulez ce nuage à votre tour. Ou bien essayez avec ce corpus de [Shakespeare](http://voyant-tools.org/tool/Cirrus/?corpus=shakespeare&stopList=stop.en.taporware.txt&toolFlow=contexts).
 
-## Utiliser un environnement de travail numérique et ses outils
+### FRÉQUENCES
 
-Maintenant, observez cet [environnement complet de Voyant](http://voyant-tools.org/?corpus=frankenstein&stopList=stop.en.taporware.txt). Il s’agit de l’apparence par défaut. Elle combine un ensemble d’outils, ou modules, qui sont complémentaires et coordonnés. Pour l’utiliser, vous devez comprendre quelques principes de fonctionnement d’une **vue** :
+* tables
+* *sparklines*
+
+### READER
+
+… et fonctions de requête
+
+### CONCORDANCE
+
+…
+
+## 3. Tour de l’atelier numérique
+
+Maintenant, observez cet [environnement de travail complet de Voyant](http://voyant-tools.org/?corpus=frankenstein&stopList=stop.en.taporware.txt). Il s’agit de l’apparence par défaut. Elle combine un ensemble d’outils, ou modules, qui sont complémentaires et coordonnés. Pour l’utiliser, vous devez comprendre quelques principes de fonctionnement d’une **vue** :
 
 * À chaque **outil** correspond un **panneau**, que vous pouvez réduire ou agrandir.
 * Pour chaque panneau, des options sont disponibles.
 * Chaque panneau peut être manipulé ou exploré d’une façon qui lui est propre.
 * Chaque panneau peut modifier le contenu d’autres panneaux.
 
+@todo indiquer le nombre d’outils en ligne + en préparation
+
+@todo Il est parfois utile d’ouvrir plusieurs interfaces et de comparer des corpus (par exemple avec ou sans lemmatisation).
+
 Faites des essais dans l’environnement par défaut de Voyant avec un texte unique, puis avec le [corpus de Shakespeare](http://voyant-tools.org/?corpus=shakespeare). Remarquez que des panneaux supplémentaires sont présents lorsque vous travaillez sur une collection de textes.
 
-## Faire des essais avec vos propres corpus
+### SUMMARY
+
+### DOCUMENTS
+
+### PHRASES
+
+### TRENDS
+
+### CORRELATIONS
+
+### COLLOCATES
+
+### LINKS
+
+### SCATTER PLOT
+
+### TOPICS
+
+
+## 4. Explorez vos corpus
+
+### Charger un corpus (démo)
 
 Vous êtes maintenant prêts à charger vos propres corpus dans Voyant. Utilisez la version locale que vous avez installée sur votre ordinateur, ou bien l’un des serveurs suivants :
 
@@ -63,74 +121,82 @@ Voyant vous permet de charger un texte de plusieurs manières :
 * Vous pouvez **charger** un texte à partir d’un fichier.
 * Vous pouvez **ouvrir** l’un des corpus qui sont disponibles par défaut, au moyen du bouton `Ouvrir`.
 
-### Corpus des participants
-
-#### Époques
-* textes hagiographiques médiévaux
-* textes hagiographiques
-* édition critique d’un texte de Christine de Pizan
-* texte didactique de Christine de Pizan
-* textes en ancien et moyen français
-* partition musicale (MS Turin Biblioteca Nazionale T.III.2)
-* commentaires humanistes latins sur l’Art poétique d’Horace
-* manuscrits du XVIe siècle
-* 200.000 vers de poésie du XVIe siècle (corpus XML, en partie lemmatisé)
-* chroniques missionnaires
-* journaux du XVIIIe siècle
-* corpus de textes esthétique allemande deuxième moitié du XIXe siècle
-* Zola, Rougon Macquart
-* Maeterlinck
-* ouvrages d’historiographie imprimés
-* romans du XXe siècle 
-* 100 œuvres de littérature de l’imaginaire pour jeunes-adultes à succès
-* texte ultra-contemporain de François Bon
-* corpus de pages Facebook
-* corpus bruts Youtube
-* corpus à partir de flux rss « print » et « web »
-
-#### Types
-* corpus philosophique (Leibniz, Hume, Quine, Goodman, Putnam, Searle, Davidson, Kripke, etc.)
-* documents juridiques
-* nouvelles de médias en ligne et messages de réseaux sociaux numériques
-* corpus interviews
-* entretiens
-
-#### Langues
-* allemand
-* anglais
-* français (ancien)
-* français (moyen)
-* français (moderne)
-* français (contemporain)
-* latin
-
-#### Médias
-* images de manuscrits
-* images d’imprimés
-* textes numériques
-* textes et images
-
-### Corpus de démonstration
+#### Corpus de démonstration
 * français – via URL
- * Lautréamont, Les Chants de Maldoror http://athena.unige.ch/athena/lautreamont/laut_mal.html < !-- stopwords, « yeux » et « corps », pas de modification de la tokénisation (« n’est » et « l’homme ») -->
- * Rabelais, Pantagruel http://athena.unige.ch/athena/rabelais/rabelais_pantagruel.html < !-- pas de stopwords adaptés, distribution du nom de Pantagruel -->
+    * Lautréamont, Les Chants de Maldoror http://athena.unige.ch/athena/lautreamont/laut_mal.html <!-- stopwords, « yeux » et « corps », pas de modification de la tokénisation (« n’est » et « l’homme ») -->
+    * Rabelais, Pantagruel http://athena.unige.ch/athena/rabelais/rabelais_pantagruel.html <!-- pas de stopwords adaptés, distribution du nom de Pantagruel -->
 * latin – via fichiers
- * César, La Guerre des Gaules, texte du PHI5 nettoyé [sélectionner liste de stopwords, pas de lemmatisation]
- * César, La Guerre des Gaules, texte lemmatisé avec le CLTK puis un peu nettoyé (erreurs comme « ito » pour « iter », « itaque », « item »… ; rectifié « edo » pour « sum », « reor » pour « res », « bellus » pour « bellum », « neo » pour « ne », « dius » pour « dies », et quelques autres formes ; lemmatisé les entités nommées « Gallia », « Caesar » et « Romani/Romanus ») < !-- « con » est la trace des choix du lemmatiseur (« con- ») -->
-* français+espagnol, médias Web ou réseaux sociaux – via fichiers HTML + via fichiers XML < !-- exclu 4 fichiers XML car erreur de lecture de certains nœuds -->
- * DHQ 12.1 : humanités numériques hispanophones et francophones www.digitalhumanities.org/dhq/vol/12/1/ < !-- liste de stopwords « multilingue », édition des listes (enlever par exemple « digital http humanities dhq university ») -->
+    * César, La Guerre des Gaules, texte du PHI5 nettoyé [sélectionner liste de stopwords, pas de lemmatisation]
+    * César, La Guerre des Gaules, texte lemmatisé avec le CLTK puis un peu nettoyé (erreurs comme « ito » pour « iter », « itaque », « item »… ; rectifié « edo » pour « sum », « reor » pour « res », « bellus » pour « bellum », « neo » pour « ne », « dius » pour « dies », et quelques autres formes ; lemmatisé les entités nommées « Gallia », « Caesar » et « Romani/Romanus ») <!-- « con » est la trace des choix du lemmatiseur (« con- ») -->
+* français+espagnol, médias Web ou réseaux sociaux – via fichiers HTML + via fichiers XML <!-- exclu 4 fichiers XML car erreur de lecture de certains nœuds -->
+    * DHQ 12.1 : humanités numériques hispanophones et francophones www.digitalhumanities.org/dhq/vol/12/1/ <!-- liste de stopwords « multilingue », édition des listes (enlever par exemple « digital http humanities dhq university ») -->
 * allemand
- * Goethe, Faust I http://beta.faustedition.net/print/faust1.all
+    * Goethe, Faust I : http://beta.faustedition.net/print/faust1.all
 
-## Références et exemples ![](../images/voyant-logo_0.png)
+@todo Travailler avec des corpus pérennes
+
+### Travail en groupes
+
+Formez des groupes. Chaque groupe choisit un corpus et explore quelques outils.
+
+Chaque groupe partage ensuite :
+* ses résultats ?
+* ses remarques
+* ses questions
+
+#### Corpus des participants
+
+* Époques
+    * textes hagiographiques médiévaux
+    * textes hagiographiques
+    * édition critique d’un texte de Christine de Pizan <!-- édition critique / texte brut -->
+    * texte didactique de Christine de Pizan
+    * textes en ancien et moyen français
+    * partition musicale (MS Turin Biblioteca Nazionale T.III.2) <!-- encodage ? -->
+    * commentaires humanistes latins sur l’*Art poétique* d’Horace
+    * manuscrits du XVIe siècle
+    * 200.000 vers de poésie du XVIe siècle (corpus XML, en partie lemmatisé) <!-- lemmatisation -->
+    * chroniques missionnaires
+    * journaux du XVIIIe siècle <!-- orthographe, OCR -->
+    * corpus de textes esthétique allemande deuxième moitié du XIXe siècle
+    * Zola, *Les Rougon-Macquart*
+    * Maeterlinck
+    * ouvrages d’historiographie imprimés
+    * romans du XXe siècle 
+    * 100 œuvres de littérature de l’imaginaire pour jeunes adultes à succès
+    * texte ultra-contemporain de François Bon <!-- le blog de FB comme corpus : http://www.tierslivre.net/ + wget -->
+    * corpus de pages Facebook
+    * corpus bruts Youtube <!-- commentaires ? -->
+    * corpus de flux RSS « print » et « Web » <!-- VT ? -->
+
+* Types
+    * corpus philosophique (Leibniz, Hume, Quine, Goodman, Putnam, Searle, Davidson, Kripke, etc.)
+    * documents juridiques <!-- VT ? -->
+    * nouvelles de médias en ligne et messages de réseaux sociaux numériques <!-- accès libre ? -->
+    * corpus d’entretiens
+
+* Langues
+    * allemand
+    * anglais
+    * français (ancien)
+    * français (moyen)
+    * français (moderne)
+    * français (contemporain)
+    * latin
+
+* Médias
+    * images de manuscrits
+    * images d’imprimés
+    * textes numériques <!-- VT texto-centrique -->
+    * textes et images
+
+
+## 5. Et ensuite ? ![](../images/voyant-logo_0.png)
 
 Voici quelques extensions ou variantes de Voyant qui peuvent vous intéresser :
 
 * Outre la version française, <https://voyant-tools.org/?lang=fr>, des versions dans d’[autres langues](http://voyant-tools.org/docs/#!/guide/languages) sont mises en ligne à mesure que des collègues traduisent l’interface.
 * [Hermeneutica](http://hermeneuti.ca/) montre de quelle manière on peut intégrer des panneaux de Voyant dans des essais en ligne.
-* @alia
-
-## Pour en savoir plus et obtenir de l’aide
 
 Le manuel de Voyant est disponible à cette adresse : <http://voyant-tools.org/docs/#!/guide/start> (licence CC-BY).
 
@@ -143,3 +209,6 @@ Un tutoriel destiné à server de base pour l’organisation d’ateliers ou de 
 Vous pouvez contacter les concepteurs : Geoffrey Rockwell (<geoffrey.rockwell@ualberta.ca>) et Stéfan Sinclair (<stefan.sinclair@mcgill.ca>). En ce qui concerne la version francophone, n’hésitez pas à écrire à Aurélien Berra (<aurelien.berra@parisnanterre.fr>).
 
 Voyant a un compte sur Twitter, [@VoyantTools](https://twitter.com/VoyantTools), qui vous fera découvrir les usages que d’autres utilisateurs font de la plateforme.
+
+
+![fantôme](../images/voyant-logo_0.png)
