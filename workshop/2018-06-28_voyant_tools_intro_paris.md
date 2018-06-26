@@ -2,6 +2,7 @@
 
 ![](../images/voyant-see.png)
 
+
 # Introduction à Voyant Tools
 
 [Voyant Tools](http://voyant-tools.org/) est un environnement de lecture et d’analyse de textes numériques. Cette plateforme fait partie d’un projet plus vaste, présenté dans ce livre : Rockwell Geoffrey et Sinclair Stéfan, *[Hermeneutica](http://hermeneuti.ca/). Computer-Assisted Interpretation in the Humanities*, Cambridge, Massachusetts, MIT Press, 2016.
@@ -10,14 +11,17 @@
 
 ---
 
+
 ## Programme de l’atelier ![](../images/voyant-logo_0.png)
 
-* Observer un texte à diverses distances
-* Utiliser un environnement de travail numérique et ses outils
-* Faire des essais avec vos propres corpus
-* Pour en savoir plus et obtenir de l’aide
+1. À propos de Voyant Tools
+2. Distances de lecture
+3. Tour de l’atelier numérique
+4. Explorez vos corpus
+5. Et ensuite ?
 
 ---
+
 
 ## 0. Préparatifs
 
@@ -30,6 +34,7 @@ Il s’agit simplement de télécharger et décompresser le dossier « VoyantSe
 Vous pouvez faire des essais avant l’atelier pour vous assurer que votre version locale fonctionne aussi bien que la version en ligne, http://voyant.tools.huma-num.fr/ (miroir de https://voyant-tools.org/).
 
 `------------ Document en cours d’élaboration… ------------`
+
 
 ## 1. À propos de Voyant Tools
 
@@ -45,9 +50,10 @@ Vous pouvez faire des essais avant l’atelier pour vous assurer que votre versi
     * bientôt aussi des *notebooks* (Spyral)
 * vers une culture numérique et statistique mieux partagée (analyse et publication des résultats) ?
 
+
 ## 2. Distances de lecture
 
-### CIRRUS
+**Cirrus**
 
 Observez ce [nuage de mots](http://voyant-tools.org/tool/Cirrus/?corpus=frankenstein&toolFlow=contexts)
 
@@ -57,18 +63,19 @@ Observez ce [nuage de mots](http://voyant-tools.org/tool/Cirrus/?corpus=frankens
 
 Manipulez ce nuage à votre tour. Ou bien essayez avec ce corpus de [Shakespeare](http://voyant-tools.org/tool/Cirrus/?corpus=shakespeare&stopList=stop.en.taporware.txt&toolFlow=contexts).
 
-### FRÉQUENCES
+**Termes**/**Terms**
 
 * tables
 * *sparklines*
 
-### READER
+**Lecteur**/**Reader**
 
 … et fonctions de requête
 
-### CONCORDANCE
+**Contextes**/**Contexts**
 
-…
+… concordance
+
 
 ## 3. Tour de l’atelier numérique
 
@@ -79,29 +86,31 @@ Maintenant, observez cet [environnement de travail complet de Voyant](http://voy
 * Chaque panneau peut être manipulé ou exploré d’une façon qui lui est propre.
 * Chaque panneau peut modifier le contenu d’autres panneaux.
 
-@todo indiquer le nombre d’outils en ligne + en préparation
+Voyant Tools propose actuellement 24 outils en ligne ([documentation](http://voyant-tools.org/docs/#!/guide/tools)). Certains sont traditionnels dans la linguistique de corpus ou la linguistique computationnelle, certains font en ce moment florès dans les humanités numériques, certains sont plus expérimentaux ou artistiques. D'autres outils sont en préparation (par exemple un outil de cartographie lié à une fonction de reconnaissance des entités nommées).
 
-@todo Il est parfois utile d’ouvrir plusieurs interfaces et de comparer des corpus (par exemple avec ou sans lemmatisation).
+@todo détailler les fonctions d'export
+
+Il est parfois utile d’ouvrir plusieurs interfaces et de comparer des corpus (par exemple avec ou sans lemmatisation).
 
 Faites des essais dans l’environnement par défaut de Voyant avec un texte unique, puis avec le [corpus de Shakespeare](http://voyant-tools.org/?corpus=shakespeare). Remarquez que des panneaux supplémentaires sont présents lorsque vous travaillez sur une collection de textes.
 
-### SUMMARY
+**Résumé**/**Summary**
 
-### DOCUMENTS
+**Documents**
 
-### PHRASES
+**Syntagmes**/**Phrases**
 
-### TRENDS
+**Tendances**/**Trends**
 
-### CORRELATIONS
+**Corrélations**/**Correlations**
 
-### COLLOCATES
+**Collocations**/**Collocates**
 
-### LINKS
+**Liens**/**Links**
 
-### SCATTER PLOT
+**Nuage de points**/**Scatter plot**
 
-### TOPICS
+**Thèmes**/**Topics**
 
 
 ## 4. Explorez vos corpus
@@ -128,10 +137,10 @@ Voyant vous permet de charger un texte de plusieurs manières :
 * latin – via fichiers
     * César, La Guerre des Gaules, texte du PHI5 nettoyé [sélectionner liste de stopwords, pas de lemmatisation]
     * César, La Guerre des Gaules, texte lemmatisé avec le CLTK puis un peu nettoyé (erreurs comme « ito » pour « iter », « itaque », « item »… ; rectifié « edo » pour « sum », « reor » pour « res », « bellus » pour « bellum », « neo » pour « ne », « dius » pour « dies », et quelques autres formes ; lemmatisé les entités nommées « Gallia », « Caesar » et « Romani/Romanus ») <!-- « con » est la trace des choix du lemmatiseur (« con- ») -->
-* français+espagnol, médias Web ou réseaux sociaux – via fichiers HTML + via fichiers XML <!-- exclu 4 fichiers XML car erreur de lecture de certains nœuds -->
+* français + espagnol, médias Web ou réseaux sociaux – via fichiers HTML + via fichiers XML <!-- exclu 4 fichiers XML car erreur de lecture de certains nœuds -->
     * DHQ 12.1 : humanités numériques hispanophones et francophones www.digitalhumanities.org/dhq/vol/12/1/ <!-- liste de stopwords « multilingue », édition des listes (enlever par exemple « digital http humanities dhq university ») -->
 * allemand
-    * Goethe, Faust I : http://beta.faustedition.net/print/faust1.all
+    * Goethe, *Faust I* : http://beta.faustedition.net/print/faust1.all
 
 @todo Travailler avec des corpus pérennes
 
@@ -209,6 +218,5 @@ Un tutoriel destiné à server de base pour l’organisation d’ateliers ou de 
 Vous pouvez contacter les concepteurs : Geoffrey Rockwell (<geoffrey.rockwell@ualberta.ca>) et Stéfan Sinclair (<stefan.sinclair@mcgill.ca>). En ce qui concerne la version francophone, n’hésitez pas à écrire à Aurélien Berra (<aurelien.berra@parisnanterre.fr>).
 
 Voyant a un compte sur Twitter, [@VoyantTools](https://twitter.com/VoyantTools), qui vous fera découvrir les usages que d’autres utilisateurs font de la plateforme.
-
 
 ![fantôme](../images/voyant-logo_0.png)
