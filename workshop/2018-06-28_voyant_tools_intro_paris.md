@@ -19,7 +19,7 @@ Le but de cet atelier est de vous accompagner dans la découverte de Voyant Tool
 4. Explorez vos corpus !
 5. Et ensuite ?
 
-Je vous invite à participer à tout moment. Si vous le voulez bien, nous ferons en revanche des présentations rapides dans la seconde partie de l’atelier, après la pause, lorsque chacun reconnaîtra ses intérêts de recherche dans la liste des corpus.
+Je vous invite à participer à tout moment. Si vous le voulez bien, nous ferons en revanche des présentations rapides dans la seconde partie de l’atelier, après la pause, lorsque chacun reconnaîtra ses intérêts de recherche en lisant la liste des corpus.
 
 ---
 
@@ -35,6 +35,7 @@ Si vous souhaitez explorer un corpus qui vous est familier, il vous suffira de d
 Vous pouvez faire des essais avant l’atelier pour vous assurer que votre version locale fonctionne aussi bien que la version en ligne, <http://voyant.tools.huma-num.fr> (miroir de <https://voyant-tools.org>).
 
 ![](../images/voyant_home.png)
+
 
 ## 1. À propos de Voyant Tools
 
@@ -57,10 +58,12 @@ Vous pouvez faire des essais avant l’atelier pour vous assurer que votre versi
 * Il existe une tension entre l’idéal, ou la tentation, de l’outil unique omnipotent et la lente acquisition d’une culture computationnelle donnant accès à des outils spécialisés (encodage, transformation, analyse textuelle, analyse de réseaux, visualisation de données, etc.), à leur adaptation, voire à leur création. Voyant Tools résout en partie cette tension par sa modularité et son caractère évolutif.
 * La prochaine étape sera celle des carnets Spyral. Au delà de l’intégration des outils dans le texte, il s’agit de publier des *notebooks* alliant code et commentaire, analyse et argumentation, en acclimatant la tradition du *literate programming* aux sciences humaines et sociales. Voyant Tools est sans doute le type de projets qui nous conduit vers une culture numérique et statistique mieux partagée.
 
+![](../images/voyant_cloud_intro_paris.png)
+
 
 ## 2. Distances de lecture
 
-`Cirrus`. Observez ce [nuage de mots](http://voyant-tools.org/tool/Cirrus/?corpus=frankenstein&toolFlow=contexts). Que représente ce nuage, à votre avis ? Parmi ses caractéristiques, lesquelles sont issues d’une quantification du texte ? Comment ses autres propriétés sont-elles générées ? Manque-t-il des mots ? <!-- manipuler les paramètres du nuage + modifier les *stopwords* -->
+`Cirrus`. Observez ce [nuage de mots](http://voyant-tools.org/tool/Cirrus/?corpus=frankenstein&toolFlow=contexts) (l'origine de l'image ci-dessus est assez facile à deviner : je parle plutôt du nuage dont vous avez le lien au début de cette phrase). Que représente ce nuage, à votre avis ? Parmi ses caractéristiques, lesquelles sont issues d’une quantification du texte ? Comment ses autres propriétés sont-elles générées ? Manque-t-il des mots ? <!-- manipuler les paramètres du nuage + modifier les *stopwords* -->
 
 Pour découvrir l’interface de Voyant, observons maintenant un autre texte de plus près, à d’autres échelles, au prisme d’autres outils.
 
@@ -205,23 +208,15 @@ Le formulaire d’inscription me donne un aperçu de vos domaines d’intérêt,
 
 ## 5. Et ensuite ? ![](../images/voyant-logo_0.png)
 
-Outre la version française, <https://voyant-tools.org/?lang=fr>, des versions dans d’[autres langues](http://voyant-tools.org/docs/#!/guide/languages) sont mises en ligne à mesure que des collègues traduisent l’interface.
+Outre la version française (sur le serveur de [Voyant Tools](https://voyant-tools.org/?lang=fr) ou sur celui d’[Huma-Num](http://voyant.tools.huma-num.fr/?lang=fr), des versions dans d’[autres langues](http://voyant-tools.org/docs/#!/guide/languages) sont mises en ligne à mesure que des collègues traduisent l’interface. La [version serveur](https://github.com/sgsinclair/VoyantServer/#voyant-server) de Voyant Tools vous permet de faire fonctionner localement la plateforme. Le [code](https://github.com/sgsinclair/Voyant) de la plateforme est publié en *open source* (licence GPL).
 
-[Hermeneutica](http://hermeneuti.ca/) montre de quelle manière on peut intégrer des panneaux de Voyant dans des essais en ligne.
+Vous pouvez consulter le [manuel de Voyant Tools](http://voyant-tools.org/docs/#!/guide/start) (licence CC-BY). Un [tutoriel](https://voyant-tools.org/docs/#!/guide/tutorial) destiné à servir de base pour l’organisation d’ateliers ou de formations est en cours de rédaction.
 
-Le manuel de Voyant est disponible à cette adresse : <http://voyant-tools.org/docs/#!/guide/start> (licence CC-BY).
+[Hermeneutica](http://hermeneuti.ca/) illustre l’insertion de panneaux de Voyant dans des essais en ligne.
 
-Le code de Voyant Tools est publié en *open source* : <https://github.com/sgsinclair/Voyant> (licence GPL).
+Enfin, vous pouvez contacter les concepteurs, Geoffrey Rockwell (<geoffrey.rockwell@ualberta.ca>) et Stéfan Sinclair (<stefan.sinclair@mcgill.ca>). Voyant a également un compte sur Twitter, [@VoyantTools](https://twitter.com/VoyantTools), qui vous fera découvrir les usages que d’autres utilisateurs font de la plateforme.
 
-La version serveur de Voyant Tools peut être téléchargée sur <https://github.com/sgsinclair/VoyantServer/#voyant-server>. Elle vous permet de faire fonctionner localement la plateforme.
-
-Un tutoriel destiné à server de base pour l’organisation d’ateliers ou de formations est en cours de rédaction : <https://voyant-tools.org/docs/#!/guide/tutorial>.
-
-Vous pouvez contacter les concepteurs : Geoffrey Rockwell (<geoffrey.rockwell@ualberta.ca>) et Stéfan Sinclair (<stefan.sinclair@mcgill.ca>). En ce qui concerne la version francophone, n’hésitez pas à écrire à Aurélien Berra (<aurelien.berra@parisnanterre.fr>).
-
-Voyant a un compte sur Twitter, [@VoyantTools](https://twitter.com/VoyantTools), qui vous fera découvrir les usages que d’autres utilisateurs font de la plateforme.
-
-Toutes vos remarques sur cet atelier sont bienvenues.
+Toutes vos remarques sur cet atelier, ou sur la version francophone, sont bienvenues : Aurélien Berra (<aurelien.berra@parisnanterre.fr>).
 
 Bonnes lectures à vous !
 
