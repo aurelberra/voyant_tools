@@ -173,8 +173,8 @@ Les corpus créés sur le serveur de Voyant Tools ont une certaine pérennité 
 
 ### Travail en groupes
 
-Formez des groupes. Chaque groupe choisit un corpus et explore quelques outils. Chaque groupe pourra ensuite partager avec tous :
-* des observations sur le corpus
+Formez des groupes. Chaque groupe choisit un corpus et explore quelques outils. Vous pourrez ensuite partager avec tous :
+* des observations sur votre corpus
 * des remarques ou des questions sur Voyant Tools
 
 #### Corpus des participants
