@@ -42,6 +42,7 @@ Vous pouvez faire des essais avant l’atelier pour vous assurer que votre versi
 ## 1. À propos de Voyant Tools
 
 > Voyant Tools is a web-based text analysis, reading and visualization environment. Developed by a small team of digital humanities scholars led by Stéfan Sinclair and Geoffrey Rockwell, Voyant Tools is designed for a very wide range of applications and users, from students to researchers and journalists to market analysts. It strives to balance user-friendliness with a range of analytic and interpretive functions.
+> 
 > (Fichier [*Readme*](https://github.com/sgsinclair/Voyant/blob/master/README.md) de l’entrepôt GitHub contenant le code de Voyant Tools)
 
 * Étapes du projet
