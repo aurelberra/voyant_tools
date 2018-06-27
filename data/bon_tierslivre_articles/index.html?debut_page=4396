@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr" dir="ltr">
+<head>
+		<title>le tiers livre, web &amp; littérature</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+	<link rel="alternate" type="application/rss+xml" title="Syndiquer tout le site" href="spip.php?page=backend" />
+    <link rel="openid.server" href="http://www.openidfrance.fr/index.php" />
+<link rel="openid.delegate" href="http://www.openidfrance.fr/fbon" /> 
+
+<link rel="shortcut icon" type="image/x-icon" href="../../bandeau/_favicon.png" />
+<meta name="DC.identifier" scheme="DCTERMS.URI" content="urn:ISSN:2266-3010" />
+
+	 <meta name="twitter:card" content="summary">
+	 
+	 <meta name="DC.identifier" scheme="DCTERMS.URI" content="urn:ISSN:2266-3010" />
+	<meta name="DC.identifier" scheme="DCTERMS.URI" content="urn:ISBN:9782814507302" />
+	<meta name="Keywords" content="francois bon, literature, magazine, fiction, littérature contemporaine, ateliers d'ecriture, creative writing, livre, édition, librairie, digital publishing, french contemporary prosa" />
+<meta name="Description" content="Tiers Livre, web & littérature par Francois Bon, fictions, journal, édition numérique, ateliers d'écriture." />
+
+		<!-- Feuille de style pour tierslivre.net -->
+	<link rel="stylesheet" href="TL_web.css" type="text/css">
+	
+	
+   
+   <!-- Polices TypeKit --> 
+<script type="text/javascript" src="//use.typekit.net/exl4fpd.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+      <script type="text/javascript" src="squelettes/scripts.js"></script>
+
+
+	
+</head>
+
+<body >
+<a href="http://www.tierslivre.net/" ><img src="http://www.tierslivre.net/bandeau/bandeau.jpg" border="0" width="60%"/></a>
+<!-- Menu de navigation de gauche -->
+<div id="menuGauche" class="texte">
+	
+		<br/><a href="http://www.tierslivre.net/spip/" class="titreListe">tiers livre | le sommaire</a><br/>
+
+	<!-- Les rubriques -->
+	
+		<div class="blocListe">
+
+	
+			
+			<div class="blocListe">
+				<a href="spip.php?rubrique135" >ateliers d&#8217;écriture</a><br/>
+			</div>
+			
+			<div class="blocListe">
+				<a href="spip.php?rubrique167" >et autres traductions</a><br/>
+			</div>
+			
+			<div class="blocListe">
+				<a href="spip.php?rubrique70" >françois bon | le labo perso</a><br/>
+			</div>
+			
+			<div class="blocListe">
+				<a href="spip.php?rubrique27" >françois bon | publications</a><br/>
+			</div>
+			
+			<div class="blocListe">
+				<a href="spip.php?rubrique28" >le livre &amp; l&#8217;Internet</a><br/>
+			</div>
+			
+			<div class="blocListe">
+				<a href="spip.php?rubrique1" >le mag | grandes pages</a><br/>
+			</div>
+			
+			<div class="blocListe">
+				<a href="spip.php?rubrique68" >le mag | rock &amp; musiques</a><br/>
+			</div>
+			
+			<div class="blocListe">
+				<a href="spip.php?rubrique31" >le mag |&nbsp;arts &amp; photo</a><br/>
+			</div>
+			
+			<div class="blocListe">
+				<a href="spip.php?rubrique95" >le mag |&nbsp;contemporains</a><br/>
+			</div>
+			
+			<div class="blocListe">
+				<a href="spip.php?rubrique162" >le monument Lovecraft</a><br/>
+			</div>
+			
+			<div class="blocListe">
+				<a href="spip.php?rubrique180" >podcasts</a><br/>
+			</div>
+			
+			<div class="blocListe">
+				<a href="spip.php?rubrique129" >résidences &amp; invitations</a><br/>
+			</div>
+			
+			<div class="blocListe">
+				<a href="spip.php?rubrique151" >série | les ronds-points</a><br/>
+			</div>
+			
+			<div class="blocListe">
+				<a href="spip.php?rubrique20" >site | infos, téléchargement</a><br/>
+			</div>
+			
+		</div>
+	
+	   <br/>
+<br />
+    <div align="right">
+   <script>
+  (function() {
+    var cx = '011075922084654387074:jkpqjxbned0';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only> on first page, <gcse:searchresults-only> (or other components) on second page.    </div>
+    <br />
+	
+	<!-- Les liens génériques (qui sont dans "lettres & infos")-->
+	
+			<div class="blocListe">
+				
+				
+						<a href="https://www.youtube.com/user/tierslivre/featured" class="blocListe">François Bon sur YouTube</a><br/>
+	
+				
+				
+						<a href="http://www.tierslivre.net/krnk/spip.php?rubrique8" class="blocListe">François Bon | le journal</a><br/>
+	
+				
+				
+						<a href="http://www.tierslivre.net" class="blocListe">accueil Tiers Livre</a><br/>
+	
+				
+			</div>
+	
+	
+	 <br/><br/>
+</div>
+		<br/>
+        
+</div>
+</div>
+
+<!-- le contenu -->
+<div id="contenu">
+<div id="article" class="texte">
+	<br/>
+	
+	<big> <a name='pagination_page' id='pagination_page'></a>
+	<span
+	class="pages"><a
+	href='./#pagination_page'
+	class='lien_pagination'
+	rel='nofollow'>0</a><span
+	class="tbc"><span
+	class='sep'> | </span>...<span
+	class='sep'> | </span></span
+
+		><a href='./?debut_page=4368#pagination_page' class='lien_pagination' rel='nofollow'>4368</a><span
+		class='sep'> | </span
+		><a href='./?debut_page=4375#pagination_page' class='lien_pagination' rel='nofollow'>4375</a><span
+		class='sep'> | </span
+		><a href='./?debut_page=4382#pagination_page' class='lien_pagination' rel='nofollow'>4382</a><span
+		class='sep'> | </span
+		><a href='./?debut_page=4389#pagination_page' class='lien_pagination' rel='nofollow'>4389</a><span
+		class='sep'> | </span
+		><strong class='on'>4396</strong><span
+		class='sep'> | </span
+		><a href='./?debut_page=4403#pagination_page' class='lien_pagination' rel='nofollow'>4403</a><span
+		class='sep'> | </span
+		><a href='./?debut_page=4410#pagination_page' class='lien_pagination' rel='nofollow'>4410</a><span
+		class='sep'> | </span
+		><a href='./?debut_page=4417#pagination_page' class='lien_pagination' rel='nofollow'>4417</a><span
+		class='sep'> | </span
+		><a href='./?debut_page=4424#pagination_page' class='lien_pagination' rel='nofollow'>4424</a><span
+
+	class="tbc"><span
+	class='sep'> | </span>...<span
+	class='sep'> | </span></span><a
+	href='./?debut_page=4431#pagination_page'
+	class='lien_pagination'
+	rel='nofollow'>4431</a></span></big>
+    
+<br/> <br/>
+    
+
+
+<div class="enteteArticlesTitre"><a href="spip.php?article54" rel="bookmark"> _ Henri Michaux / Sur des peintures énigmatiques (Magritte)</a></div>
+<div class="intro"><em><p>chaque dimanche, une page singulière de littérature</p></em></div>
+
+
+<div class="enteteArticlesTitre"><a href="spip.php?article51" rel="bookmark"><a href="spip.php?article51"><img class='spip_logo spip_logos' alt="" src="IMG/arton51.jpg?1352732028" width='140' height='105' /></a> _ charge contre les Rolin</a></div>
+<div class="intro"><em><p><em>Terminal Frigo</em> est un livre indispensable</p></em></div>
+
+
+<div class="enteteArticlesTitre"><a href="spip.php?article53" rel="bookmark"><a href="spip.php?article53"><img class='spip_logo spip_logos' alt="" src="IMG/arton53.jpg?1352732029" width='140' height='105' /></a> _ poètes à tous les étages, les coulisses</a></div>
+<div class="intro"><em><p>de comment convoquer les morts et d&#8217;une tartine de fromage, avec invocation par Jean-Pierre Verheggen</p></em></div>
+
+
+<div class="enteteArticlesTitre"><a href="spip.php?article52" rel="bookmark"><a href="spip.php?article52"><img class='spip_logo spip_logos' alt="" src="IMG/arton52.jpg?1352732029" width='140' height='110' /></a> _ concours meilleurs hurleurs de France, en répétition</a></div>
+<div class="intro"><em><p>Printemps des Poètes, répétition, plus l&#8217;hommage Tinguely de Jacques Darras</p></em></div>
+
+
+<div class="enteteArticlesTitre"><a href="spip.php?article50" rel="bookmark"><a href="spip.php?article50"><img class='spip_logo spip_logos' alt="" src="IMG/arton50.jpg?1352732027" width='140' height='105' /></a> _ inventaire table de travail</a></div>
+<div class="intro"><em><p>vue sur table, chronique régulière (pour l&#8217;avenir)</p></em></div>
+
+
+<div class="enteteArticlesTitre"><a href="spip.php?article49" rel="bookmark"><a href="spip.php?article49"><img class='spip_logo spip_logos' alt="" src="IMG/arton49.jpg?1352732026" width='140' height='105' /></a> _ Ensba, 5&nbsp;: Perec</a></div>
+<div class="intro"><em><p>Beaux-Arts Paris, cours littérature - et la question du réalisme en littérature</p></em></div>
+
+
+<div class="enteteArticlesTitre"><a href="spip.php?article47" rel="bookmark"><a href="spip.php?article47"><img class='spip_logo spip_logos' alt="" src="IMG/arton47.jpg?1352732024" width='140' height='96' /></a> _ photos acceptables, photos admirables, photographes admirables ou haïssables</a></div>
+<div class="intro"><em><p>expos Araki à Tokyo, Giacomelli à la BNF</p></em></div>
+
+
+</div>
+	
+</div>
+<!-- le menu de droite -->
+<div id="titreRubriquebloc"> 
+
+
+
+	
+
+    
+ </div>
+
+</body>
+</html>
+
+

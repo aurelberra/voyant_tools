@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr" dir="ltr">
+<head>
+		<title>le tiers livre, web &amp; littérature</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+	<link rel="alternate" type="application/rss+xml" title="Syndiquer tout le site" href="spip.php?page=backend" />
+    <link rel="openid.server" href="http://www.openidfrance.fr/index.php" />
+<link rel="openid.delegate" href="http://www.openidfrance.fr/fbon" /> 
+
+<link rel="shortcut icon" type="image/x-icon" href="../../bandeau/_favicon.png" />
+<meta name="DC.identifier" scheme="DCTERMS.URI" content="urn:ISSN:2266-3010" />
+
+	 <meta name="twitter:card" content="summary">
+	 
+	 <meta name="DC.identifier" scheme="DCTERMS.URI" content="urn:ISSN:2266-3010" />
+	<meta name="DC.identifier" scheme="DCTERMS.URI" content="urn:ISBN:9782814507302" />
+	<meta name="Keywords" content="francois bon, literature, magazine, fiction, littérature contemporaine, ateliers d'ecriture, creative writing, livre, édition, librairie, digital publishing, french contemporary prosa" />
+<meta name="Description" content="Tiers Livre, web & littérature par Francois Bon, fictions, journal, édition numérique, ateliers d'écriture." />
+
+		<!-- Feuille de style pour tierslivre.net -->
+	<link rel="stylesheet" href="TL_web.css" type="text/css">
+	
+	
+   
+   <!-- Polices TypeKit --> 
+<script type="text/javascript" src="//use.typekit.net/exl4fpd.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+      <script type="text/javascript" src="squelettes/scripts.js"></script>
+
+
+	
+</head>
+
+<body >
+<a href="http://www.tierslivre.net/" ><img src="http://www.tierslivre.net/bandeau/bandeau.jpg" border="0" width="60%"/></a>
+<!-- Menu de navigation de gauche -->
+<div id="menuGauche" class="texte">
+	
+		<br/><a href="http://www.tierslivre.net/spip/" class="titreListe">tiers livre | le sommaire</a><br/>
+
+	<!-- Les rubriques -->
+	
+		<div class="blocListe">
+
+	
+			
+			<div class="blocListe">
+				<a href="spip.php?rubrique135" >ateliers d&#8217;écriture</a><br/>
+			</div>
+			
+			<div class="blocListe">
+				<a href="spip.php?rubrique167" >et autres traductions</a><br/>
+			</div>
+			
+			<div class="blocListe">
+				<a href="spip.php?rubrique70" >françois bon | le labo perso</a><br/>
+			</div>
+			
+			<div class="blocListe">
+				<a href="spip.php?rubrique27" >françois bon | publications</a><br/>
+			</div>
+			
+			<div class="blocListe">
+				<a href="spip.php?rubrique28" >le livre &amp; l&#8217;Internet</a><br/>
+			</div>
+			
+			<div class="blocListe">
+				<a href="spip.php?rubrique1" >le mag | grandes pages</a><br/>
+			</div>
+			
+			<div class="blocListe">
+				<a href="spip.php?rubrique68" >le mag | rock &amp; musiques</a><br/>
+			</div>
+			
+			<div class="blocListe">
+				<a href="spip.php?rubrique31" >le mag |&nbsp;arts &amp; photo</a><br/>
+			</div>
+			
+			<div class="blocListe">
+				<a href="spip.php?rubrique95" >le mag |&nbsp;contemporains</a><br/>
+			</div>
+			
+			<div class="blocListe">
+				<a href="spip.php?rubrique162" >le monument Lovecraft</a><br/>
+			</div>
+			
+			<div class="blocListe">
+				<a href="spip.php?rubrique180" >podcasts</a><br/>
+			</div>
+			
+			<div class="blocListe">
+				<a href="spip.php?rubrique129" >résidences &amp; invitations</a><br/>
+			</div>
+			
+			<div class="blocListe">
+				<a href="spip.php?rubrique151" >série | les ronds-points</a><br/>
+			</div>
+			
+			<div class="blocListe">
+				<a href="spip.php?rubrique20" >site | infos, téléchargement</a><br/>
+			</div>
+			
+		</div>
+	
+	   <br/>
+<br />
+    <div align="right">
+   <script>
+  (function() {
+    var cx = '011075922084654387074:jkpqjxbned0';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only> on first page, <gcse:searchresults-only> (or other components) on second page.    </div>
+    <br />
+	
+	<!-- Les liens génériques (qui sont dans "lettres & infos")-->
+	
+			<div class="blocListe">
+				
+				
+						<a href="https://www.youtube.com/user/tierslivre/featured" class="blocListe">François Bon sur YouTube</a><br/>
+	
+				
+				
+						<a href="http://www.tierslivre.net/krnk/spip.php?rubrique8" class="blocListe">François Bon | le journal</a><br/>
+	
+				
+				
+						<a href="http://www.tierslivre.net" class="blocListe">accueil Tiers Livre</a><br/>
+	
+				
+			</div>
+	
+	
+	 <br/><br/>
+</div>
+		<br/>
+        
+</div>
+</div>
+
+<!-- le contenu -->
+<div id="contenu">
+<div id="article" class="texte">
+	<br/>
+	
+	<big> <a name='pagination_page' id='pagination_page'></a>
+	<span
+	class="pages"><a href='./#pagination_page' class='lien_pagination' rel='nofollow'>0</a><span
+		class='sep'> | </span
+		><strong class='on'>7</strong><span
+		class='sep'> | </span
+		><a href='./?debut_page=14#pagination_page' class='lien_pagination' rel='nofollow'>14</a><span
+		class='sep'> | </span
+		><a href='./?debut_page=21#pagination_page' class='lien_pagination' rel='nofollow'>21</a><span
+		class='sep'> | </span
+		><a href='./?debut_page=28#pagination_page' class='lien_pagination' rel='nofollow'>28</a><span
+		class='sep'> | </span
+		><a href='./?debut_page=35#pagination_page' class='lien_pagination' rel='nofollow'>35</a><span
+		class='sep'> | </span
+		><a href='./?debut_page=42#pagination_page' class='lien_pagination' rel='nofollow'>42</a><span
+		class='sep'> | </span
+		><a href='./?debut_page=49#pagination_page' class='lien_pagination' rel='nofollow'>49</a><span
+		class='sep'> | </span
+		><a href='./?debut_page=56#pagination_page' class='lien_pagination' rel='nofollow'>56</a><span
+
+	class="tbc"><span
+	class='sep'> | </span>...<span
+	class='sep'> | </span></span><a
+	href='./?debut_page=4431#pagination_page'
+	class='lien_pagination'
+	rel='nofollow'>4431</a></span></big>
+    
+<br/> <br/>
+    
+
+
+<div class="enteteArticlesTitre"><a href="spip.php?article4250" rel="bookmark"><a href="spip.php?article4250"><img class='spip_logo spip_logos' alt="" src="IMG/arton4250.jpg?1448282488" width='91' height='140' /></a> _ Lovecraft sur Tiers Livre, le sommaire complet</a></div>
+<div class="intro"><em><p>une collection bilingue inédite, des lectures, une web-série, des articles et essais</p></em></div>
+
+
+<div class="enteteArticlesTitre"><a href="spip.php?article4771" rel="bookmark"><a href="spip.php?article4771"><img class='spip_logo spip_logos' alt="" src="IMG/rubon180.jpg?1526884586" width='140' height='140' /></a> _ carnets #14 | bonheur suisse à 500 boules</a></div>
+<div class="intro"><em><p>d&#8217;accepter ou non les propositions qu&#8217;on vous fait, ou du commerce artistique et des bonnes intentions</p></em></div>
+
+
+<div class="enteteArticlesTitre"><a href="spip.php?article4770" rel="bookmark"><a href="spip.php?article4770"><img class='spip_logo spip_logos' alt="" src="IMG/rubon180.jpg?1526884586" width='140' height='140' /></a> _ carnets #13| comment je ne suis pas devenu musicien</a></div>
+<div class="intro"><em><p>ou comment en pleine éclosion du pop à Civray dans la Vienne, à 11 ans, on me mit au violoncelle</p></em></div>
+
+
+<div class="enteteArticlesTitre"><a href="spip.php?article4014" rel="bookmark"><a href="spip.php?article4014"><img class='spip_logo spip_logos' alt="" src="IMG/arton4014.jpg?1503809564" width='140' height='70' /></a> _ Tiers Livre Éditeur, y a du nouveau&nbsp;!</a></div>
+<div class="intro"><em><p>les nouveautés, les meilleures ventes, les suggestions maisons et chantiers en cours&nbsp;: la page d&#8217;actu et de dialogue permanent&nbsp;!</p></em></div>
+
+
+<div class="enteteArticlesTitre"><a href="spip.php?article4763" rel="bookmark"><a href="spip.php?article4763"><img class='spip_logo spip_logos' alt="" src="IMG/rubon180.jpg?1526884586" width='140' height='140' /></a> _ carnets |&nbsp;fidélité à la littérature perdue</a></div>
+<div class="intro"><em><p>ne pas archiver notre travail numérique, est-ce si grave&nbsp;?</p></em></div>
+
+
+<div class="enteteArticlesTitre"><a href="spip.php?article4481" rel="bookmark"><a href="spip.php?article4481"><img class='spip_logo spip_logos' alt="" src="IMG/arton4481.jpg?1511077806" width='105' height='140' onmouseover="this.src='IMG/artoff4481.jpg?1511077813'" onmouseout="this.src='IMG/arton4481.jpg?1511077806'" /></a> _ là où finit la ville | repérages urbains autour du lac de Grand-Lieu</a></div>
+<div class="intro"><em><p>quand une des plus métropoles urbaines françaises se dissout dans un espace naturel qui révèle ce que cache l&#8217;urbanisation forcée</p></em></div>
+
+
+<div class="enteteArticlesTitre"><a href="spip.php?article4483" rel="bookmark"><a href="spip.php?article4483"><img class='spip_logo spip_logos' alt="" src="IMG/arton4483.jpg?1511419915" width='140' height='93' /></a> _ cycle hiver 2017 | vers un écrire-film, le sommaire</a></div>
+<div class="intro"><em><p>les propositions du cycle hiver 2017-2018, film &amp; écriture</p></em></div>
+
+
+</div>
+	
+</div>
+<!-- le menu de droite -->
+<div id="titreRubriquebloc"> 
+
+
+
+	
+
+    
+ </div>
+
+</body>
+</html>
+
+
