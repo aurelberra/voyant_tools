@@ -139,19 +139,19 @@ Voyant vous permet de charger un texte de plusieurs manières :
 * Vous pouvez **ouvrir** l’un des corpus qui sont disponibles par défaut, au moyen du bouton « Ouvrir ».
 
 ### Démonstration sur corpus
-* français – via URL
+* Français – via URL
     * Lautréamont, [*Les Chants de Maldoror*](http://athena.unige.ch/athena/lautreamont/laut_mal.html) <!-- stopwords, « yeux » et « corps », pas de modification de la tokénisation (« n’est » et « l’homme ») -->
     * Rabelais, [*Pantagruel*](http://athena.unige.ch/athena/rabelais/rabelais_pantagruel.html) <!-- pas de stopwords adaptés, distribution du nom de Pantagruel -->
-        * intégration à une page HTML : [exemple 1](https://aurelienberra.org/temp/voyant.html) et [code](https://github.com/aurelberra/aurelienberra/blob/master/static/temp/voyant.html)
-        * intégration à une page HTML : [exemple 2](http://voyant-tools.org/docs/#!/guide/search), la page documentant les modes de requête
-* allemand – via URL
+        * Intégration à une page HTML : [exemple 1](https://aurelienberra.org/temp/voyant.html) et [code](https://github.com/aurelberra/aurelienberra/blob/master/static/temp/voyant.html)
+        * Intégration à une page HTML : [exemple 2](http://voyant-tools.org/docs/#!/guide/search), la page documentant les modes de requête
+* Allemand – via URL
     * Goethe, [*Faust I*](http://beta.faustedition.net/print/faust1.all)
-* latin – via fichiers
+* Latin – via fichiers
     * César, *La Guerre des Gaules*, texte du PHI5 nettoyé <!-- sélectionner liste de stopwords, pas de lemmatisation -->
     * César, *La Guerre des Gaules*, texte lemmatisé <!-- avec le CLTK --> puis un peu nettoyé
     <!-- (erreurs comme « ito » pour « iter », « itaque », « item »… ; rectifié « edo » pour « sum », « reor » pour « res », « bellus » pour « bellum », « neo » pour « ne », « dius » pour « dies », et quelques autres formes ; lemmatisé les entités nommées « Gallia », « Caesar » et « Romani/Romanus ») -->
     <!-- « con » est la trace des choix du lemmatiseur (« con- ») -->
-* français + espagnol, médias Web ou réseaux sociaux – via fichiers HTML + via fichiers XML <!-- exclu 4 fichiers XML car erreur de lecture de certains nœuds -->
+* Français et espagnol, médias Web ou réseaux sociaux – via fichiers HTML ou XML <!-- exclu 4 fichiers XML car erreur de lecture de certains nœuds -->
     * François Bon, *Le Tiers Livre* <!-- le blog de FB comme corpus : http://www.tierslivre.net/ + wget -->
     * [*Digital Humanities Quarterly* 12.1](http://www.digitalhumanities.org/dhq/vol/12/1/) : humanités numériques hispanophones et francophones <!-- liste de stopwords « multilingue », édition des listes (enlever par exemple « digital http humanities dhq university ») -->
 
