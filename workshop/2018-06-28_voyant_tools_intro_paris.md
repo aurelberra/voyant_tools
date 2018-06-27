@@ -1,15 +1,15 @@
-# Introduction à Voyant Tools
+# Introduction à Voyant Tools ![](../images/voyant-logo_0.png)
 
 [Voyant Tools](http://voyant-tools.org/) est un environnement d’analyse, de lecture et de visualisation de textes numériques. Cette plateforme fait partie d’un projet plus vaste, présenté dans ce livre : Rockwell Geoffrey et Sinclair Stéfan, *[Hermeneutica](http://hermeneuti.ca/). Computer-Assisted Interpretation in the Humanities*, Cambridge, Massachusetts, MIT Press, 2016.
 
-<img src="../images/hermeneutica_cover.jpg" width="300"/>
-
 *Ce document contient la structure et les matériaux d’un atelier francophone d’introduction à Voyant Tools de trois heures. Il se fonde notamment sur un bref [tutoriel disponible sur le site Hermeneuti.ca](http://hermeneuti.ca/intro-workshop), sur des [ateliers antérieurs](http://docs.voyant-tools.org/category/workshops/) assurés par les concepteurs de la plateforme et sur la [documentation en cours de révision](https://voyant-tools.org/docs/#!/guide/tutorial).*
+
+<img src="../images/hermeneutica_cover.jpg" width="300"/>
 
 ---
 
 
-## Notre programme ![](../images/voyant-logo_0.png)
+## Notre programme
 
 Le but de cet atelier est de vous accompagner dans la découverte de Voyant Tools. Voici le parcours que je vous propose pour comprendre le projet de cette plateforme, guider votre regard dans son interface, vous aider à y analyser des corpus et – qui sait ? – nous faire réfléchir sur le sens et l’intérêt de ces explorations :
 
@@ -22,6 +22,8 @@ Le but de cet atelier est de vous accompagner dans la découverte de Voyant Tool
 Je vous invite à participer à tout moment. Si vous le voulez bien, nous ferons en revanche des présentations rapides dans la seconde partie de l’atelier, après la pause, lorsque chacun reconnaîtra ses intérêts de recherche en lisant la liste des corpus.
 
 ---
+
+![](../images/voyant_skin.png)
 
 
 ## 0. Préparatifs
@@ -58,12 +60,12 @@ Vous pouvez faire des essais avant l’atelier pour vous assurer que votre versi
 * Il existe une tension entre l’idéal, ou la tentation, de l’outil unique omnipotent et la lente acquisition d’une culture computationnelle donnant accès à des outils spécialisés (encodage, transformation, analyse textuelle, analyse de réseaux, visualisation de données, etc.), à leur adaptation, voire à leur création. Voyant Tools résout en partie cette tension par sa modularité et son caractère évolutif.
 * La prochaine étape sera celle des carnets Spyral. Au delà de l’intégration des outils dans le texte, il s’agit de publier des *notebooks* alliant code et commentaire, analyse et argumentation, en acclimatant la tradition du *literate programming* aux sciences humaines et sociales. Voyant Tools est sans doute le type de projets qui nous conduit vers une culture numérique et statistique mieux partagée.
 
-![](../images/voyant_cloud_intro_paris.png)
+![](../images/frankenstein_cloud.png)
 
 
 ## 2. Distances de lecture
 
-`Cirrus`. Observez ce [nuage de mots](http://voyant-tools.org/tool/Cirrus/?corpus=frankenstein&toolFlow=contexts) (l'origine de l'image ci-dessus est assez facile à deviner : je parle plutôt du nuage dont vous avez le lien au début de cette phrase). Que représente ce nuage, à votre avis ? Parmi ses caractéristiques, lesquelles sont issues d’une quantification du texte ? Comment ses autres propriétés sont-elles générées ? Manque-t-il des mots ? <!-- manipuler les paramètres du nuage + modifier les *stopwords* -->
+`Cirrus`. Observez le [nuage de mots](http://voyant-tools.org/tool/Cirrus/?corpus=frankenstein&toolFlow=contexts) reproduit ci-dessus. Que représente ce nuage, à votre avis ? Parmi ses caractéristiques, lesquelles sont issues d’une quantification du texte ? Comment ses autres propriétés sont-elles générées ? Tous les mots vous semblent-ils pertinents ? Manque-t-il des mots ? <!-- manipuler les paramètres du nuage + modifier les *stopwords* -->
 
 Pour découvrir l’interface de Voyant, observons maintenant un autre texte de plus près, à d’autres échelles, au prisme d’autres outils.
 
@@ -72,6 +74,8 @@ Pour découvrir l’interface de Voyant, observons maintenant un autre texte de 
 `Lecteur`/`Reader`. Que se passe-t-il si vous survolez un mot, si vous le sélectionnez ? Que représente la frise située sous le texte ? Avez-vous testé les fonctions de requête ?
 
 `Contextes`/`Contexts`. L’incontournable concordance. Avez-vous remarqué les curseurs, en particulier celui qui se nomme « Contexte » ? Un menu vous permet par ailleurs de restreindre le corpus à certains documents.
+
+![](../images/tools_list.png)
 
 
 ## 3. Faisons le tour de l’atelier numérique
@@ -112,7 +116,7 @@ Voici les outils que je vous propose de commenter brièvement :
 * `Thèmes`/`Topics`
 
 
-## N’est-ce pas l’heure de faire une pause ?
+## Pause ![](../images/SpottedEagleOwl2522MGSleep_white_small.png)
 
 
 ## 4. Explorez vos corpus !
@@ -220,4 +224,4 @@ Toutes vos remarques sur cet atelier, ou sur la version francophone, sont bienve
 
 Bonnes lectures à vous !
 
-![](../images/voyant-see.png)
+![](../images/voyant_cloud_intro_paris.png)
