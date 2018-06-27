@@ -102,9 +102,9 @@ Les fonctions d’export dépendent de l’outil concerné. Elles peuvent fourni
 
 * une référence bibliographique comportant les noms des concepteurs, de la plateforme et de l’outil
 * une image produite par un outil (formats PNG et SVG)
-* d'autres types de données produites par un outil (formats HTML, TSV et JSON)
+* d’autres types de données produites par un outil (formats HTML, TSV et JSON)
 * une nouvelle URL pour afficher un outil séparément, dans la fenêtre entière du navigateur
-* un fragment de code pour intégrer le panneau ou la vue à une page HTML (une capsule est créé par une balise *iframe*, qui fait appel à l'API de Voyant Tools ; certains CMS, comme WordPress, sont notoirement rétifs à cette procédure)
+* un fragment de code pour intégrer le panneau ou la vue à une page HTML (une capsule est créé par une balise *iframe*, qui fait appel à l’API de Voyant Tools ; certains CMS, comme WordPress, sont notoirement rétifs à cette procédure)
 
 Notez qu’il est parfois utile d’ouvrir plusieurs interfaces et de comparer des corpus, par exemple une version sans lemmatisation et une version lemmatisée d’un texte, ou bien un texte dans sa langue originale et une traduction.
 
@@ -138,13 +138,13 @@ Vous êtes maintenant prêts à charger vos propres corpus dans Voyant. Utilisez
 * avec l’interface française : <http://voyant.tools.huma-num.fr/?lang=fr> ou <https://voyant-tools.org/?lang=fr>
 * avec l’interface anglaise : <http://voyant.tools.huma-num.fr/?lang=en> ou <https://voyant-tools.org/?lang=en>
 
-Remarquez en passant que certains paramètres peuvent être contrôlés par une modification de l’URL de base. De même, l'URL de votre corpus peut vous servir de signet.
+Remarquez en passant que certains paramètres peuvent être contrôlés par une modification de l’URL de base. De même, l’URL de votre corpus peut vous servir de signet.
 
 Voyant vous autorise à créer un corpus de plusieurs manières :
 
 * Vous pouvez **copier-coller** du texte.
 * Vous pouvez saisir une **URL** que Voyant ira visiter. Par exemple, nous pourrions récupérer une page sur le blog de Geoffrey Rockwell, [*theoreti.ca*](http://theoreti.ca/?p=6484), ou bien sur celui de François Bon, [*Le Tiers Livre*](http://www.tierslivre.net/arch/00_Azerty.html), ou encore plusieurs pages d’une ou de plusieurs sources.
-* Vous pouvez **charger** un texte à partir d’un ou plusieurs fichiers (texte brut, HTML, XML, RTF, DOCX, PDF – ou archive ZIP contenant des fichiers dans d'autres formats).
+* Vous pouvez **charger** un texte à partir d’un ou plusieurs fichiers (texte brut, HTML, XML, RTF, DOCX, PDF – ou archive ZIP contenant des fichiers dans d’autres formats).
 * Vous pouvez **ouvrir** l’un des corpus qui sont disponibles par défaut, au moyen du bouton « Ouvrir ».
 
 ### Démonstration sur quelques corpus
@@ -168,7 +168,7 @@ Voyant vous autorise à créer un corpus de plusieurs manières :
     <!-- j’ai exclu 4 fichiers XML en raison d’une erreur de lecture de certains nœuds -->
     <!-- sélectionner la liste de stopwords « multilingue », éditer les listes (enlever par exemple « digital http humanities dhq university ») -->
 
-Les corpus créés sur le serveur de Voyant Tools ont une certaine pérennité : ils demeurent accessibles tant qu'ils sont visités régulièrement, par exemple une fois toutes les trois semaines.
+Les corpus créés sur le serveur de Voyant Tools ont une certaine pérennité : ils demeurent accessibles tant qu’ils sont visités régulièrement, par exemple une fois toutes les trois semaines.
 
 ### Travail en groupes
 
