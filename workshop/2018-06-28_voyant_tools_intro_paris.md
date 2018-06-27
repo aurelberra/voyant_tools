@@ -148,7 +148,7 @@ Voyant vous autorise à créer un corpus de plusieurs manières :
 * Vous pouvez **ouvrir** l’un des corpus qui sont disponibles par défaut, au moyen du bouton « Ouvrir ».
 
 ### Démonstration sur quelques corpus
-* Français, via une URL <!-- détailler les options d’import -->
+* Français, via des URL <!-- détailler les options d’import -->
     * Lautréamont, [*Les Chants de Maldoror*](http://athena.unige.ch/athena/lautreamont/laut_mal.html)
     <!-- stopwords, « yeux » et « corps », pas de modification de la tokénisation (« n’est » et « l’homme ») -->
     * Rabelais, [*Pantagruel*](http://athena.unige.ch/athena/rabelais/rabelais_pantagruel.html) <!-- pas de stopwords adaptés, distribution du nom de Pantagruel -->
@@ -157,13 +157,14 @@ Voyant vous autorise à créer un corpus de plusieurs manières :
 * Latin, via des fichiers
     * César, *La Guerre des Gaules*, texte du PHI5 nettoyé
     <!-- sélectionner une liste de stopwords, pas de lemmatisation -->
-    * César, *La Guerre des Gaules*, texte lemmatisé puis un peu nettoyé
+    * César, *La Guerre des Gaules*, même texte lemmatisé puis un peu nettoyé
     <!-- texte lemmatisé avec le module du CLTK : évoquer le « pre-processing », que VT réduit au minimum -->
     <!-- (erreurs comme « ito » pour « iter », « itaque », « item »… ; rectifié « edo » pour « sum », « reor » pour « res », « bellus » pour « bellum », « neo » pour « ne », « dius » pour « dies », et quelques autres formes ; lemmatisé les entités nommées « Gallia », « Caesar » et « Romani/Romanus ») -->
     <!-- « con » est la trace des choix du lemmatiseur (« con- ») -->
-* Français et espagnol, textes issus du Web, via des fichiers HTML ou XML
+* Français, textes issus du Web, via des fichiers HTML
     * François Bon, [*Le Tiers Livre*](http://www.tierslivre.net/)
     <!-- acquisition des données : wget -->
+* Français, espagnol et anglais, textes issus du Web, via des fichiers XML
     * [*Digital Humanities Quarterly* 12.1](http://www.digitalhumanities.org/dhq/vol/12/1/) : humanités numériques hispanophones et francophones
     <!-- j’ai exclu 4 fichiers XML en raison d’une erreur de lecture de certains nœuds -->
     <!-- sélectionner la liste de stopwords « multilingue », éditer les listes (enlever par exemple « digital http humanities dhq university ») -->
@@ -228,6 +229,10 @@ Le formulaire d’inscription m’a donné un aperçu de vos domaines d’intér
     * corpus de pages Facebook
     * corpus bruts Youtube <!-- commentaires ? -->
     * corpus de flux RSS « print » et « Web » <!-- VT les supporte, mais je n’ai jamais essayé -->
+
+#### Partageons nos remarques, questions et impressions
+
+Que pensez-vous de ce premier contact avec vos corpus dans Voyant Tools ?
 
 
 ## 5. Et ensuite ? ![](../images/voyant-logo_0.png)
