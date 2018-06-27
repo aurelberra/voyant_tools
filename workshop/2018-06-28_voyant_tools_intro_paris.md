@@ -41,7 +41,8 @@ Vous pouvez faire des essais avant l’atelier pour vous assurer que votre versi
 
 ## 1. À propos de Voyant Tools
 
-> Voyant Tools is a web-based text analysis, reading and visualization environment. Developed by a small team of digital humanities scholars led by Stéfan Sinclair and Geoffrey Rockwell, Voyant Tools is designed for a very wide range of applications and users, from students to researchers and journalists to market analysts. It strives to balance user-friendliness with a range of analytic and interpretive functions. (Fichier [*Readme*](https://github.com/sgsinclair/Voyant/blob/master/README.md) de l’entrepôt GitHub contenant le code de Voyant Tools)
+> Voyant Tools is a web-based text analysis, reading and visualization environment. Developed by a small team of digital humanities scholars led by Stéfan Sinclair and Geoffrey Rockwell, Voyant Tools is designed for a very wide range of applications and users, from students to researchers and journalists to market analysts. It strives to balance user-friendliness with a range of analytic and interpretive functions.
+> (Fichier [*Readme*](https://github.com/sgsinclair/Voyant/blob/master/README.md) de l’entrepôt GitHub contenant le code de Voyant Tools)
 
 * Étapes du projet
     * Depuis les années 1990 : Humanities Computing et Digital Humanities au Canada (cf. [TAPoR](http://tapor.ca/home), the Text Analysis Portal for Research)
@@ -118,6 +119,8 @@ Voici les outils que je vous propose de commenter brièvement :
 
 ## Pause ![](../images/SpottedEagleOwl2522MGSleep_white_small.png)
 
+![](../images/voyant_multilingual_stoplists_sample.png)
+
 
 ## 4. Explorez vos corpus !
 
@@ -132,7 +135,7 @@ Vous êtes maintenant prêts à charger vos propres corpus dans Voyant. Utilisez
 Voyant vous permet de charger un texte de plusieurs manières :
 
 * Vous pouvez **copier-coller** du texte.
-* Vous pouvez saisir une **URL** que Voyant ira visiter pour récupérer du texte. Par exemple, nous pourrions utiliser Voyant pour observer le contenu du blog de Geoffrey Rockwell, [theoreti.ca](http://theoreti.ca/), ou bien celui de François Bon, [Le Tiers Livre](http://www.tierslivre.net/) (nous le ferons dans un instant).
+* Vous pouvez saisir une **URL** que Voyant ira visiter pour récupérer du texte. Par exemple, nous pourrions utiliser Voyant pour observer le contenu du blog de Geoffrey Rockwell, [*theoreti.ca*](http://theoreti.ca/), ou bien celui de François Bon, [*Le Tiers Livre*](http://www.tierslivre.net/) (nous le ferons dans un instant).
 * Vous pouvez **charger** un texte à partir d’un fichier.
 * Vous pouvez **ouvrir** l’un des corpus qui sont disponibles par défaut, au moyen du bouton « Ouvrir ».
 
@@ -150,8 +153,8 @@ Voyant vous permet de charger un texte de plusieurs manières :
     <!-- (erreurs comme « ito » pour « iter », « itaque », « item »… ; rectifié « edo » pour « sum », « reor » pour « res », « bellus » pour « bellum », « neo » pour « ne », « dius » pour « dies », et quelques autres formes ; lemmatisé les entités nommées « Gallia », « Caesar » et « Romani/Romanus ») -->
     <!-- « con » est la trace des choix du lemmatiseur (« con- ») -->
 * français + espagnol, médias Web ou réseaux sociaux – via fichiers HTML + via fichiers XML <!-- exclu 4 fichiers XML car erreur de lecture de certains nœuds -->
-    * François Bon, Le Tiers Livre <!-- le blog de FB comme corpus : http://www.tierslivre.net/ + wget -->
-    * [Digital Humanities Quarterly 12.1](http://www.digitalhumanities.org/dhq/vol/12/1/) : humanités numériques hispanophones et francophones <!-- liste de stopwords « multilingue », édition des listes (enlever par exemple « digital http humanities dhq university ») -->
+    * François Bon, *Le Tiers Livre* <!-- le blog de FB comme corpus : http://www.tierslivre.net/ + wget -->
+    * [*Digital Humanities Quarterly* 12.1](http://www.digitalhumanities.org/dhq/vol/12/1/) : humanités numériques hispanophones et francophones <!-- liste de stopwords « multilingue », édition des listes (enlever par exemple « digital http humanities dhq university ») -->
 
 <!-- Travailler avec des corpus pérennes : l’interaction avec le serveur via l’URL et la durée de conservation des corpus ne sont apparemment pas mentionnées dans la documentation. -->
 
