@@ -58,7 +58,7 @@ Vous pouvez faire des essais avant l’atelier pour vous assurer que votre versi
     * En 2016, j’ai réalisé la traduction française de l’interface, à la suite d’une discussion sur la liste « [Digital Humanities](https://groupes.renater.fr/sympa/info/dh) ».
     * En 2017-2018, j’ai produit des listes de [*stopwords* pour le grec et le latin](https://github.com/aurelberra/stopwords), qui ont été intégrées à Voyant Tools.
 * Il existe une tension entre l’idéal, ou la tentation, de l’outil unique omnipotent et la lente acquisition d’une culture computationnelle donnant accès à des outils spécialisés (encodage, transformation, analyse textuelle, analyse de réseaux, visualisation de données, etc.), à leur adaptation, voire à leur création. Voyant Tools résout en partie cette tension par sa modularité et son caractère évolutif.
-* La prochaine étape sera celle des carnets Spyral. Au delà de l’intégration des outils dans le texte, il s’agit de publier des *notebooks* alliant code et commentaire, analyse et argumentation, en acclimatant la tradition du *literate programming* aux sciences humaines et sociales. Voyant Tools est sans doute le type de projets qui nous conduit vers une culture numérique et statistique mieux partagée.
+* La prochaine étape sera celle des carnets Spyral. Au delà de l’intégration des outils dans le texte, il s’agit de publier des *notebooks* alliant code et commentaire, analyse et argumentation, en acclimatant la tradition du *literate programming* aux sciences humaines et sociales (voir le [poster](http://journalofdigitalhumanities.org/2-3/voyant-notebooks-literate-programming-and-programming-literacy/) programmatique des auteurs, ainsi que les parallèles du projet [Jupyter](http://jupyter.org/) et du [Rmarkdown](https://rmarkdown.rstudio.com/)). Voyant Tools est sans doute le type de projets qui nous conduit vers une culture numérique et statistique mieux partagée.
 
 ![](../images/frankenstein_cloud.png)
 
@@ -74,7 +74,7 @@ Pour découvrir l’interface de Voyant, observons maintenant un autre texte de 
 
 `Lecteur`/`Reader`. Que se passe-t-il si vous survolez un mot, si vous le sélectionnez ? Que représente la frise située sous le texte ? Avez-vous testé les fonctions de requête ?
 
-`Contextes`/`Contexts`. L’incontournable concordance. Avez-vous remarqué les curseurs, en particulier celui qui se nomme « Contexte » ? Un menu vous donne par ailleurs la possibilité de restreindre le corpus à certains documents.
+`Contextes`/`Contexts`. L’indispensable concordance (du type Keyword in Context, KWIC). Avez-vous remarqué les curseurs, en particulier celui qui se nomme « Contexte » ? Un menu vous donne par ailleurs la possibilité de restreindre le corpus à certains documents.
 
 ![](../images/tools_list.png)
 
@@ -96,14 +96,19 @@ Avant de cliquer pour remplacer un outil par un autre, prenez le temps de regard
 
 Voyant Tools propose actuellement 24 outils en ligne (voir la [documentation](http://voyant-tools.org/docs/#!/guide/tools)). Certains d’entre eux font partie des fondements de la linguistique de corpus ou de la linguistique computationnelle (dénombrement, concordance, co-occurrence), certains sont en vogue dans les humanités numériques (modélisation thématique, ou *topic modelling*), certains sont plus expérimentaux ou artistiques (lesquels, à votre avis ?). D’autres outils sont en préparation (par exemple un outil de cartographie lié à une fonction de reconnaissance des entités nommées).
 
+Nous verrons dans quelques minutes comment créer un corpus en important du texte.
+
 Les fonctions d’export dépendent de l’outil concerné. Elles peuvent fournir :
 
 * une référence bibliographique comportant les noms des concepteurs, de la plateforme et de l’outil
 * une image produite par un outil (formats PNG et SVG)
+* d'autres types de données produites par un outil (formats HTML, TSV et JSON)
 * une nouvelle URL pour afficher un outil séparément, dans la fenêtre entière du navigateur
-* un fragment de code pour intégrer le panneau ou la vue à une page HTML (une capsule est créé par une balise *iframe*)
+* un fragment de code pour intégrer le panneau ou la vue à une page HTML (une capsule est créé par une balise *iframe*, qui fait appel à l'API de Voyant Tools ; certains CMS, comme WordPress, sont notoirement rétifs à cette procédure)
 
 Notez qu’il est parfois utile d’ouvrir plusieurs interfaces et de comparer des corpus, par exemple une version sans lemmatisation et une version lemmatisée d’un texte, ou bien un texte dans sa langue originale et une traduction.
+
+Vous aurez déjà constaté que la fonction d’aide apparaît dans tous les panneaux.
 
 Voici les outils que je vous propose de commenter brièvement :
 
@@ -127,17 +132,19 @@ Voici les outils que je vous propose de commenter brièvement :
 
 ### Créer un corpus
 
-Vous êtes maintenant prêts à charger vos propres corpus dans Voyant. Utilisez la version locale que vous avez installée sur votre ordinateur, ou bien l’un des serveurs suivants (vous remarquerez en passant que certains paramètres peuvent être contrôlés par une modification de l’URL de base) :
+Vous êtes maintenant prêts à charger vos propres corpus dans Voyant. Utilisez la version locale que vous avez installée sur votre ordinateur, ou bien l’un des serveurs suivants :
 
 * avec une interface dans la langue de votre navigateur : <http://voyant.tools.huma-num.fr> ou <https://voyant-tools.org>
 * avec l’interface française : <http://voyant.tools.huma-num.fr/?lang=fr> ou <https://voyant-tools.org/?lang=fr>
 * avec l’interface anglaise : <http://voyant.tools.huma-num.fr/?lang=en> ou <https://voyant-tools.org/?lang=en>
 
+Remarquez en passant que certains paramètres peuvent être contrôlés par une modification de l’URL de base. De même, l'URL de votre corpus peut vous servir de signet.
+
 Voyant vous autorise à créer un corpus de plusieurs manières :
 
 * Vous pouvez **copier-coller** du texte.
 * Vous pouvez saisir une **URL** que Voyant ira visiter. Par exemple, nous pourrions récupérer une page sur le blog de Geoffrey Rockwell, [*theoreti.ca*](http://theoreti.ca/?p=6484), ou bien sur celui de François Bon, [*Le Tiers Livre*](http://www.tierslivre.net/arch/00_Azerty.html), ou encore plusieurs pages d’une ou de plusieurs sources.
-* Vous pouvez **charger** un texte à partir d’un fichier.
+* Vous pouvez **charger** un texte à partir d’un ou plusieurs fichiers (texte brut, HTML, XML, RTF, DOCX, PDF – ou archive ZIP contenant des fichiers dans d'autres formats).
 * Vous pouvez **ouvrir** l’un des corpus qui sont disponibles par défaut, au moyen du bouton « Ouvrir ».
 
 ### Démonstration sur quelques corpus
@@ -161,7 +168,7 @@ Voyant vous autorise à créer un corpus de plusieurs manières :
     <!-- j’ai exclu 4 fichiers XML en raison d’une erreur de lecture de certains nœuds -->
     <!-- sélectionner la liste de stopwords « multilingue », éditer les listes (enlever par exemple « digital http humanities dhq university ») -->
 
-<!-- travailler avec des corpus pérennes : l’interaction avec le serveur via l’URL et la durée de conservation des corpus ne sont apparemment pas mentionnées dans la documentation -->
+Les corpus créés sur le serveur de Voyant Tools ont une certaine pérennité : ils demeurent accessibles tant qu'ils sont visités régulièrement, par exemple une fois toutes les trois semaines.
 
 ### Travail en groupes
 
