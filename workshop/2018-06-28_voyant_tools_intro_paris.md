@@ -7,11 +7,11 @@ Language: French
 Copyright: CC-BY
 ---
 
-# Introduction à Voyant Tools ![](../images/voyant-logo_0.png)
+# Introduction à Voyant Tools ![Logo de Voyant Tools](../images/voyant-logo_0.png "Logo de Voyant Tools")
 
 [Voyant Tools](http://voyant-tools.org/) est un environnement d’analyse, de lecture et de visualisation de textes numériques. Cette plateforme fait partie d’un projet plus vaste, présenté dans un livre de Geoffrey Rockwell et Stéfan Sinclair, *Hermeneutica. Computer-Assisted Interpretation in the Humanities*, Cambridge, Massachusetts, MIT Press, 2016, dont *[Hermeneuti.ca](http://hermeneuti.ca/) est le site compagnon.
 
-<img src="../images/hermeneutica_cover.jpg" width="200"/>
+<img src="../images/hermeneutica_cover.jpg" width="200" alt="Couverture de Rockwell et Sinclair, Hermeneutica, 2016" title="Couverture de Rockwell et Sinclair, Hermeneutica, 2016"/>
 
 ---
 
@@ -32,7 +32,7 @@ Je vous invite à intervenir à tout moment. En revanche, si vous le voulez bien
 
 ---
 
-![](../images/voyant_skin.png)
+![Vue par défaut de Voyant Tools](../images/voyant_skin.png "Vue par défaut de Voyant Tools")
 
 
 ## 0. Préparatifs
@@ -45,7 +45,7 @@ Si vous souhaitez explorer un corpus qui vous est familier, il vous suffira de d
 
 Vous pouvez faire des essais avant l’atelier pour vous assurer que votre version locale fonctionne aussi bien que le site canadien, <https://voyant-tools.org>, ou son miroir français <http://voyant.tools.huma-num.fr>.
 
-![](../images/voyant_home.png)
+![Page d'accueil de Voyant Tools](../images/voyant_home.png "Page d'accueil de Voyant Tools")
 
 
 ## 1. À propos de Voyant Tools
@@ -69,7 +69,7 @@ Vous pouvez faire des essais avant l’atelier pour vous assurer que votre versi
 * Il existe une tension entre l’idéal, ou la tentation, de l’outil unique omnipotent et la lente acquisition d’une culture computationnelle donnant accès à des outils spécialisés (encodage, transformation, analyse textuelle, analyse de réseaux, visualisation de données, etc.), à leur adaptation, voire à leur création. Voyant Tools résout en partie cette tension par sa modularité et son caractère évolutif.
 * La prochaine étape importante sera celle des carnets Spyral. Au delà de l’intégration des outils dans le texte, il s’agit de publier des *notebooks* alliant code et commentaire, analyse et argumentation, en acclimatant la tradition du *literate programming* aux sciences humaines et sociales (voir le [poster](http://journalofdigitalhumanities.org/2-3/voyant-notebooks-literate-programming-and-programming-literacy/) programmatique des auteurs, ainsi que les parallèles du projet [Jupyter](http://jupyter.org/) et du [Rmarkdown](https://rmarkdown.rstudio.com/)). Voyant Tools est sans doute le type de projets qui nous conduit vers une culture numérique et statistique mieux partagée.
 
-![](../images/frankenstein_cloud.png)
+![Nuage de mots plus ou moins mystérieux](../images/frankenstein_cloud.png "Nuage de mots plus ou moins mystérieux")
 
 
 ## 2. Distances de lecture
@@ -85,7 +85,7 @@ Pour découvrir l’interface de Voyant, observons maintenant un autre texte de 
 
 `Contextes`/`Contexts`. L’indispensable concordance (du type Keyword in Context, KWIC). Avez-vous remarqué les curseurs, en particulier celui qui se nomme « Contexte » ? Un menu vous donne par ailleurs la possibilité de restreindre le corpus à certains documents.
 
-![](../images/tools_list.png)
+![Liste des outils de Voyant Tools](../images/tools_list.png "Liste des outils de Voyant Tools")
 
 
 ## 3. Faisons le tour de l’atelier numérique
@@ -132,9 +132,9 @@ Voici les outils que je vous propose de commenter brièvement :
 * `Thèmes`/`Topics`
 
 
-## Pause ![](../images/SpottedEagleOwl2522MGSleep_white_small.png)
+## Pause ![Même les hiboux ont besoin de se reposer les yeux.](../images/SpottedEagleOwl2522MGSleep_white_small.png "Même les hiboux ont besoin de se reposer les yeux.")
 
-![](../images/voyant_multilingual_stoplists_sample.png)
+![Nuage de mots contenant une sélection arbitraire, mais équilibrée, de mots vides utilisés dans les différentes listes proposées par Voyant Tools](../images/voyant_multilingual_stoplists_sample.png "Nuage de mots contenant une sélection arbitraire, mais équilibrée, de mots vides utilisés dans les différentes listes proposées par Voyant Tools")
 
 
 ## 4. Explorez vos corpus !
@@ -242,7 +242,7 @@ Le formulaire d’inscription m’a donné un aperçu de vos domaines d’intér
 Que pensez-vous de ce premier contact avec vos corpus dans Voyant Tools ?
 
 
-## 5. Et ensuite ? ![](../images/voyant-logo_0.png)
+## 5. Et ensuite ? ![Logo de Voyant Tools](../images/voyant-logo_0.png "Logo de Voyant Tools")
 
 Outre la version française (sur le serveur de [Voyant Tools](https://voyant-tools.org/?lang=fr) ou sur celui d’[Huma-Num](http://voyant.tools.huma-num.fr/?lang=fr)), des versions dans d’[autres langues](http://voyant-tools.org/docs/#!/guide/languages) sont mises en ligne à mesure que des collègues traduisent l’interface. La [version serveur](https://github.com/sgsinclair/VoyantServer/#voyant-server) de Voyant Tools vous permet de faire fonctionner localement la plateforme. Le [code](https://github.com/sgsinclair/Voyant) de la plateforme est publié en *open source* (licence GPL).
 
@@ -254,4 +254,4 @@ Toutes vos remarques sur cet atelier, ou sur l’interface francophone, sont bie
 
 Bonnes lectures à vous !
 
-![Nuage de mots de cette page, 25 mots](../images/voyant_cloud_intro_paris.png)
+![Nuage de 25 mots de cette page](../images/voyant_cloud_intro_paris.png "Nuage de 25 mots de cette page")
