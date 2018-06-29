@@ -1,8 +1,15 @@
+---
+Title: Introduction à Voyant Tools
+Author: Aurélien Berra
+Date: 2018-06-28
+Description: "Plan et matériaux d’un atelier francophone d’introduction à Voyant Tools d’une durée de trois heures, proposé le 28 juin 2018 à la Maison de la recherche de l’université Sorbonne-nouvelle (Paris-III) à destination d’enseignants-chercheurs et de doctorants."
+Language: French
+Copyright: CC-BY
+---
+
 # Introduction à Voyant Tools ![](../images/voyant-logo_0.png)
 
-[Voyant Tools](http://voyant-tools.org/) est un environnement d’analyse, de lecture et de visualisation de textes numériques. Cette plateforme fait partie d’un projet plus vaste, présenté dans ce livre : Rockwell Geoffrey et Sinclair Stéfan, *[Hermeneutica](http://hermeneuti.ca/). Computer-Assisted Interpretation in the Humanities*, Cambridge, Massachusetts, MIT Press, 2016.
-
-*Ce document contient la structure et les matériaux d’un atelier francophone d’introduction à Voyant Tools de trois heures. Il se fonde notamment sur un bref [tutoriel disponible sur le site Hermeneuti.ca](http://hermeneuti.ca/intro-workshop), sur des [ateliers antérieurs](http://docs.voyant-tools.org/category/workshops/) assurés par les concepteurs de la plateforme et sur la [documentation en cours de révision](https://voyant-tools.org/docs/#!/guide/tutorial).*
+[Voyant Tools](http://voyant-tools.org/) est un environnement d’analyse, de lecture et de visualisation de textes numériques. Cette plateforme fait partie d’un projet plus vaste, présenté dans un livre de Geoffrey Rockwell et Stéfan Sinclair, *Hermeneutica. Computer-Assisted Interpretation in the Humanities*, Cambridge, Massachusetts, MIT Press, 2016, dont *[Hermeneuti.ca](http://hermeneuti.ca/) est le site compagnon.
 
 <img src="../images/hermeneutica_cover.jpg" width="200"/>
 
@@ -20,6 +27,8 @@ Le but de cet atelier est de vous accompagner dans la découverte de Voyant Tool
 5. Et ensuite ?
 
 Je vous invite à intervenir à tout moment. En revanche, si vous le voulez bien, nous ferons des présentations rapides dans la seconde partie de l’atelier, après la pause, lorsque chacun reconnaîtra ses intérêts de recherche en lisant la liste des corpus.
+
+*Ce document se fonde notamment sur un bref [tutoriel disponible sur le site Hermeneuti.ca](http://hermeneuti.ca/intro-workshop), sur des [ateliers antérieurs](http://docs.voyant-tools.org/category/workshops/) assurés par les concepteurs de la plateforme et sur la [documentation en cours de révision](https://voyant-tools.org/docs/#!/guide/tutorial).*
 
 ---
 
@@ -41,7 +50,7 @@ Vous pouvez faire des essais avant l’atelier pour vous assurer que votre versi
 
 ## 1. À propos de Voyant Tools
 
-> Voyant Tools is a web-based text analysis, reading and visualization environment. Developed by a small team of digital humanities scholars led by Stéfan Sinclair and Geoffrey Rockwell, Voyant Tools is designed for a very wide range of applications and users, from students to researchers and journalists to market analysts. It strives to balance user-friendliness with a range of analytic and interpretive functions. (Fichier [*Readme*](https://github.com/sgsinclair/Voyant/blob/master/README.md) de l’entrepôt GitHub contenant le code de Voyant Tools)
+> Voyant Tools is a web-based text analysis, reading and visualization environment. Developed by a small team of digital humanities scholars led by Stéfan Sinclair and Geoffrey Rockwell, Voyant Tools is designed for a very wide range of applications and users, from students to researchers and journalists to market analysts. It strives to balance user-friendliness with a range of analytic and interpretive functions. (Incipit du fichier [*Readme*](https://github.com/sgsinclair/Voyant/blob/master/README.md) de l’entrepôt GitHub contenant le code de Voyant Tools)
 
 * Étapes du projet
     * Depuis les années 1990 : Humanities Computing et Digital Humanities au Canada (cf. [TAPoR](http://tapor.ca/home), the Text Analysis Portal for Research)
@@ -58,7 +67,7 @@ Vous pouvez faire des essais avant l’atelier pour vous assurer que votre versi
     * En 2016, j’ai réalisé la traduction française de l’interface, à la suite d’une discussion sur la liste « [Digital Humanities](https://groupes.renater.fr/sympa/info/dh) ».
     * En 2017-2018, j’ai produit des listes de [*stopwords* pour le grec et le latin](https://github.com/aurelberra/stopwords), qui ont été intégrées à Voyant Tools.
 * Il existe une tension entre l’idéal, ou la tentation, de l’outil unique omnipotent et la lente acquisition d’une culture computationnelle donnant accès à des outils spécialisés (encodage, transformation, analyse textuelle, analyse de réseaux, visualisation de données, etc.), à leur adaptation, voire à leur création. Voyant Tools résout en partie cette tension par sa modularité et son caractère évolutif.
-* La prochaine étape sera celle des carnets Spyral. Au delà de l’intégration des outils dans le texte, il s’agit de publier des *notebooks* alliant code et commentaire, analyse et argumentation, en acclimatant la tradition du *literate programming* aux sciences humaines et sociales (voir le [poster](http://journalofdigitalhumanities.org/2-3/voyant-notebooks-literate-programming-and-programming-literacy/) programmatique des auteurs, ainsi que les parallèles du projet [Jupyter](http://jupyter.org/) et du [Rmarkdown](https://rmarkdown.rstudio.com/)). Voyant Tools est sans doute le type de projets qui nous conduit vers une culture numérique et statistique mieux partagée.
+* La prochaine étape importante sera celle des carnets Spyral. Au delà de l’intégration des outils dans le texte, il s’agit de publier des *notebooks* alliant code et commentaire, analyse et argumentation, en acclimatant la tradition du *literate programming* aux sciences humaines et sociales (voir le [poster](http://journalofdigitalhumanities.org/2-3/voyant-notebooks-literate-programming-and-programming-literacy/) programmatique des auteurs, ainsi que les parallèles du projet [Jupyter](http://jupyter.org/) et du [Rmarkdown](https://rmarkdown.rstudio.com/)). Voyant Tools est sans doute le type de projets qui nous conduit vers une culture numérique et statistique mieux partagée.
 
 ![](../images/frankenstein_cloud.png)
 
@@ -116,7 +125,7 @@ Voici les outils que je vous propose de commenter brièvement :
 * `Documents`
 * `Syntagmes`/`Phrases`
 * `Tendances`/`Trends`
-* `Corrélations`/`Correlations` <!-- évoquer les erreurs occasionnelles -->
+* `Corrélations`/`Correlations`
 * `Collocations`/`Collocates`
 * `Liens`/`Links`
 * `Nuage de points`/`Scatter plot` <!-- redimensionner, puis plein écran -->
@@ -143,28 +152,28 @@ Remarquez en passant que certains paramètres peuvent être contrôlés par une 
 Voyant vous autorise à créer un corpus de plusieurs manières :
 
 * Vous pouvez **copier-coller** du texte.
-* Vous pouvez saisir une **URL** que Voyant ira visiter. Par exemple, nous pourrions récupérer une page sur le blog de Geoffrey Rockwell, [*theoreti.ca*](http://theoreti.ca/?p=6484), ou bien sur celui de François Bon, [*Le Tiers Livre*](http://www.tierslivre.net/arch/00_Azerty.html), ou encore plusieurs pages d’une ou de plusieurs sources.
+* Vous pouvez saisir une **URL** que Voyant ira visiter. Nous pourrions récupérer une page sur le blog de Geoffrey Rockwell, *Theoreti.ca* [exemple](http://theoreti.ca/?p=6484), ou bien sur celui de François Bon, *Le Tiers Livre* [exemple](http://www.tierslivre.net/arch/00_Azerty.html), ou encore plusieurs pages d’une ou de plusieurs sources.
 * Vous pouvez **charger** un texte à partir d’un ou plusieurs fichiers (texte brut, HTML, XML, RTF, DOCX, PDF – ou archive ZIP contenant des fichiers dans d’autres formats).
 * Vous pouvez **ouvrir** l’un des corpus qui sont disponibles par défaut, au moyen du bouton « Ouvrir ».
 
 ### Démonstration sur quelques corpus
-* Français, via des URL <!-- détailler les options d’import -->
+* Import par des URL : textes en français <!-- détailler les options d’import -->
     * Lautréamont, [*Les Chants de Maldoror*](http://athena.unige.ch/athena/lautreamont/laut_mal.html)
     <!-- stopwords, « yeux » et « corps », pas de modification de la tokénisation (« n’est » et « l’homme ») -->
     * Rabelais, [*Pantagruel*](http://athena.unige.ch/athena/rabelais/rabelais_pantagruel.html) <!-- pas de stopwords adaptés, distribution du nom de Pantagruel -->
         * Intégration à une page HTML : [exemple 1](https://aurelienberra.org/temp/voyant.html) et [code](https://github.com/aurelberra/aurelienberra/blob/master/static/temp/voyant.html)
         * Intégration à une page HTML : [exemple 2](http://voyant-tools.org/docs/#!/guide/search), la page documentant les modes de requête
-* Latin, via des fichiers
+* Import de fichiers TXT : textes en latin
     * César, *La Guerre des Gaules*, texte du PHI5 nettoyé
     <!-- sélectionner une liste de stopwords, pas de lemmatisation -->
     * César, *La Guerre des Gaules*, même texte lemmatisé puis un peu nettoyé
     <!-- texte lemmatisé avec le module du CLTK : évoquer le « pre-processing », que VT réduit au minimum -->
     <!-- (erreurs comme « ito » pour « iter », « itaque », « item »… ; rectifié « edo » pour « sum », « reor » pour « res », « bellus » pour « bellum », « neo » pour « ne », « dius » pour « dies », et quelques autres formes ; lemmatisé les entités nommées « Gallia », « Caesar » et « Romani/Romanus ») -->
     <!-- « con » est la trace des choix du lemmatiseur (« con- ») -->
-* Français, textes issus du Web, via des fichiers HTML
-    * François Bon, [*Le Tiers Livre*](http://www.tierslivre.net/)
+* Import de fichiers HTML, compressés dans une archive ZIP : textes en français, issus du Web
+    * François Bon, [*Le Tiers Livre*](http://www.tierslivre.net/) (pour respecter les droits de l’auteur, les fichiers ne sont pas conservés)
     <!-- acquisition des données : wget -->
-* Français, espagnol et anglais, textes issus du Web, via des fichiers XML
+* Import de fichiers XML, compressés dans une archive ZIP : textes en français, espagnol et anglais, issus du Web
     * [*Digital Humanities Quarterly* 12.1](http://www.digitalhumanities.org/dhq/vol/12/1/) : humanités numériques hispanophones et francophones
     <!-- j’ai exclu 4 fichiers XML en raison d’une erreur de lecture de certains nœuds -->
     <!-- sélectionner la liste de stopwords « multilingue », éditer les listes (enlever par exemple « digital http humanities dhq university ») -->
