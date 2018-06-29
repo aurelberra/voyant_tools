@@ -72,7 +72,7 @@ Vous pouvez faire des essais avant l’atelier pour vous assurer que votre versi
 
 ## 2. Distances de lecture
 
-`Cirrus`. Observez le [nuage de mots](http://voyant-tools.org/tool/Cirrus/?corpus=frankenstein&toolFlow=contexts) reproduit ci-dessus. Que représente ce nuage, à votre avis ? Parmi ses caractéristiques, lesquelles sont issues d’une quantification du texte ? Comment ses autres propriétés sont-elles générées ? Tous les mots vous semblent-ils pertinents ? Manque-t-il des mots ?
+`Cirrus`. Observez le [nuage de mots](https://voyant-tools.org/tool/Cirrus/?corpus=75b440214b14d5402b2d9ab1e0150d17&toolFlow=contexts) reproduit ci-dessus. Que représente ce nuage, à votre avis ? Parmi ses caractéristiques, lesquelles sont issues d’une quantification du texte ? Comment ses autres propriétés sont-elles générées ? Tous les mots vous semblent-ils pertinents ? Manque-t-il des mots ?
 <!-- manipuler les paramètres du nuage + modifier les *stopwords* -->
 
 Pour découvrir l’interface de Voyant, observons maintenant un autre texte de plus près, à d’autres échelles, au prisme d’autres outils : le premier [*Faust*](http://beta.faustedition.net/print/faust1.all) de Goethe, importé par son URL. Si vous ne lisez pas l’allemand, cela vous aidera à vous concentrer sur l’environnement de travail !
