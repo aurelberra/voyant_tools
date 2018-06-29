@@ -13,8 +13,6 @@ Copyright: CC-BY
 
 <img src="../images/hermeneutica_cover.jpg" width="200" alt="Couverture de Rockwell et Sinclair, Hermeneutica, 2016" title="Couverture de Rockwell et Sinclair, Hermeneutica, 2016"/>
 
----
-
 
 ## Notre programme
 
