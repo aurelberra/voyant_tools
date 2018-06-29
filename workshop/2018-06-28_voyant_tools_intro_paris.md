@@ -9,9 +9,9 @@ Copyright: CC-BY
 
 # Introduction à Voyant Tools ![Logo de Voyant Tools](../images/voyant-logo_0.png "Logo de Voyant Tools")
 
-[Voyant Tools](http://voyant-tools.org/) est un environnement d’analyse, de lecture et de visualisation de textes numériques. Cette plateforme fait partie d’un projet plus vaste, présenté dans un livre de Geoffrey Rockwell et Stéfan Sinclair, *Hermeneutica. Computer-Assisted Interpretation in the Humanities*, Cambridge, Massachusetts, MIT Press, 2016, dont *[Hermeneuti.ca](http://hermeneuti.ca/) est le site compagnon.
+[Voyant Tools](http://voyant-tools.org/) est un environnement d’analyse, de lecture et de visualisation de textes numériques.
 
-<img src="../images/hermeneutica_cover.jpg" width="200" alt="Couverture de Rockwell et Sinclair, Hermeneutica, 2016" title="Couverture de Rockwell et Sinclair, Hermeneutica, 2016"/>
+L’élaboration de cette plateforme s’inscrit dans un projet plus vaste, présenté dans un livre : Geoffrey Rockwell et Stéfan Sinclair, *Hermeneutica. Computer-Assisted Interpretation in the Humanities*, Cambridge, Massachusetts, MIT Press, 2016, dont [Hermeneuti.ca](http://hermeneuti.ca/) est le site compagnon.
 
 
 ## Notre programme
