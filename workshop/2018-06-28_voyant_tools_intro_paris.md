@@ -147,12 +147,12 @@ Vous êtes maintenant prêts à charger vos propres corpus dans Voyant. Utilisez
 * avec l’interface française : <http://voyant.tools.huma-num.fr/?lang=fr> ou <https://voyant-tools.org/?lang=fr>
 * avec l’interface anglaise : <http://voyant.tools.huma-num.fr/?lang=en> ou <https://voyant-tools.org/?lang=en>
 
-Remarquez en passant que certains paramètres peuvent être contrôlés par une modification de l’URL de base. De même, l’URL de votre corpus peut vous servir de signet.
+Remarquez en passant que certains paramètres peuvent être contrôlés par une modification de l’URL de base. De même, l’URL de votre corpus peut vous servir de signet. Les corpus créés sur le serveur de Voyant Tools ont une certaine pérennité : ils demeurent accessibles tant qu’ils sont visités régulièrement, par exemple une fois toutes les trois semaines.
 
 Voyant vous autorise à créer un corpus de plusieurs manières :
 
 * Vous pouvez **copier-coller** du texte.
-* Vous pouvez saisir une **URL** que Voyant ira visiter. Nous pourrions récupérer une page sur le blog de Geoffrey Rockwell, *Theoreti.ca* [exemple](http://theoreti.ca/?p=6484), ou bien sur celui de François Bon, *Le Tiers Livre* [exemple](http://www.tierslivre.net/arch/00_Azerty.html), ou encore plusieurs pages d’une ou de plusieurs sources.
+* Vous pouvez saisir une **URL** que Voyant ira visiter. Nous pourrions récupérer une page sur le blog de Geoffrey Rockwell, *Theoreti.ca* ([exemple](http://theoreti.ca/?p=6484)), ou bien sur celui de François Bon, *Le Tiers Livre* ([exemple](http://www.tierslivre.net/arch/00_Azerty.html)), ou encore plusieurs pages d’une ou de plusieurs sources.
 * Vous pouvez **charger** un texte à partir d’un ou plusieurs fichiers (texte brut, HTML, XML, RTF, DOCX, PDF – ou archive ZIP contenant des fichiers dans d’autres formats).
 * Vous pouvez **ouvrir** l’un des corpus qui sont disponibles par défaut, au moyen du bouton « Ouvrir ».
 
@@ -177,8 +177,6 @@ Voyant vous autorise à créer un corpus de plusieurs manières :
     * [*Digital Humanities Quarterly* 12.1](http://www.digitalhumanities.org/dhq/vol/12/1/) : humanités numériques hispanophones et francophones
     <!-- j’ai exclu 4 fichiers XML en raison d’une erreur de lecture de certains nœuds -->
     <!-- sélectionner la liste de stopwords « multilingue », éditer les listes (enlever par exemple « digital http humanities dhq university ») -->
-
-Les corpus créés sur le serveur de Voyant Tools ont une certaine pérennité : ils demeurent accessibles tant qu’ils sont visités régulièrement, par exemple une fois toutes les trois semaines.
 
 ### Travail en groupes
 
