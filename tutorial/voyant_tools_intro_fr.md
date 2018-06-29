@@ -128,7 +128,7 @@ Voici les outils essentiels que je vous propose de passer en revue :
 * `Nuage de points`/`Scatter plot` est une approche graphique des distances entre termes ou entre documents, selon diverses méthodes d'analyse bien connues, dont l'analyse des correspondances et l'analyse en composants principaux. Je vous conseille pour un outil comme celui-ci de redimensionner le panneau ou d'exporter une vue dans une fenêtre à part. Zoomez en sélectionnant une zone et dézoomer en double-cliquant. Double-cliquez sur un point pour le supprimer du graphique ou en faire le centre des calculs de proximité. Explorez les options des panneaux latéraux, en particulier le choix du nombre de grappes (*clusters*) et du nombre de dimensions d'analyse.
 * `Thèmes`/`Topics` réalise une modélisation thématique : tous les termes du corpus sont algorithmiquement regroupés dans des « sacs de mots » selon leurs co-occurrences et le lecteur peut voir émerger des ensembles sémantiques, des bizarreries à expliquer ou des absurdités apparentes qui invitent à modifier les paramètres ou réfléchir plus longuement aux données. Faites des essais.
 
-## Pause ![Même les hiboux ont besoin de se reposer les yeux.](../images/SpottedEagleOwl2522MGSleep_white_small.png "Même les hiboux ont besoin de se reposer les yeux.")
+<!-- ## Pause ![Même les hiboux ont besoin de se reposer les yeux.](../images/SpottedEagleOwl2522MGSleep_white_small.png "Même les hiboux ont besoin de se reposer les yeux.") -->
 
 ![Nuage de mots contenant une sélection arbitraire, mais équilibrée, de mots vides utilisés dans les différentes listes proposées par Voyant Tools](../images/voyant_multilingual_stoplists_sample.png "Nuage de mots contenant une sélection arbitraire, mais équilibrée, de mots vides utilisés dans les différentes listes proposées par Voyant Tools")
 
@@ -137,23 +137,22 @@ Voici les outils essentiels que je vous propose de passer en revue :
 
 ### Créer un corpus
 
-Vous êtes maintenant prêts à charger vos propres corpus dans Voyant. Utilisez la version locale que vous avez installée sur votre ordinateur, ou bien l’un des serveurs suivants :
+Vous êtes maintenant prêts à charger vos propres corpus dans Voyant. Utilisez la version locale que vous avez installée sur votre ordinateur, ou bien l’un des serveurs suivants : http://voyant.tools.huma-num.fr> ou <https://voyant-tools.org> pour une interface dans la langue de votre navigateur, <http://voyant.tools.huma-num.fr/?lang=fr> ou <https://voyant-tools.org/?lang=fr> pour l’interface en français, <http://voyant.tools.huma-num.fr/?lang=en> ou <https://voyant-tools.org/?lang=en> pour l’interface en anglais.
 
-* avec une interface dans la langue de votre navigateur : <http://voyant.tools.huma-num.fr> ou <https://voyant-tools.org>
-* avec l’interface française : <http://voyant.tools.huma-num.fr/?lang=fr> ou <https://voyant-tools.org/?lang=fr>
-* avec l’interface anglaise : <http://voyant.tools.huma-num.fr/?lang=en> ou <https://voyant-tools.org/?lang=en>
-
-Remarquez en passant que certains paramètres peuvent être contrôlés par une modification de l’URL de base. De même, l’URL de votre corpus peut vous servir de signet. Les corpus créés sur le serveur de Voyant Tools ont une certaine pérennité : ils demeurent accessibles tant qu’ils sont visités régulièrement, par exemple une fois toutes les trois semaines.
+Remarquez en passant que certains paramètres peuvent être contrôlés par une modification de l’URL de base. De la même façon, l’URL de votre corpus peut vous servir de signet, si vous connaissez la chaîne de caractères qui constitue son identifiant unique (essayez d'ajouter à l'URL de base `?corpus=75b440214b14d5402b2d9ab1e0150d17` – reconnaissez-vous le texte ?). Les corpus créés sur le serveur de Voyant Tools ont une certaine pérennité : ils demeurent accessibles tant qu’ils sont visités régulièrement, par exemple une fois toutes les trois semaines.
 
 Voyant vous autorise à créer un corpus de plusieurs manières :
 
 * Vous pouvez **copier-coller** du texte.
-* Vous pouvez saisir une **URL** que Voyant ira visiter. Nous pourrions récupérer une page sur le blog de Geoffrey Rockwell, *Theoreti.ca* ([exemple](http://theoreti.ca/?p=6484)), ou bien sur celui de François Bon, *Le Tiers Livre* ([exemple](http://www.tierslivre.net/arch/00_Azerty.html)), ou encore plusieurs pages d’une ou de plusieurs sources.
-* Vous pouvez **charger** un texte à partir d’un ou plusieurs fichiers (texte brut, HTML, XML, RTF, DOCX, PDF – ou archive ZIP contenant des fichiers dans d’autres formats).
+* Vous pouvez saisir une ou plusieurs **URL** que Voyant ira visiter (je vous suggère d'observer ainsi [la page la plus longue de Wikipédia](https://en.wikipedia.org/wiki/List_of_compositions_by_Franz_Schubert), qui requiert clairement la liste de mots vides « Multilingue »).
+* Vous pouvez **charger** un texte à partir d’un ou plusieurs fichiers (texte brut, HTML, XML, RTF, DOCX, PDF – ou archive ZIP contenant en un fichier compressé des fichiers dans d’autres formats).
 * Vous pouvez **ouvrir** l’un des corpus qui sont disponibles par défaut, au moyen du bouton « Ouvrir ».
 
 ### Démonstration sur quelques corpus
-* Import par des URL : textes en français <!-- détailler les options d’import -->
+
+Avant de charger ces corpus, prenez le temps de découvrir les options d’import. Il s'agit de fonctions avancées, qui vous permettent de nommer votre corpus, de ne charger qu'une partie du texte (grâce à des expressions rationnelles pour le texte brut, à des expressions XPath pour le XML, à des sélecteurs en CSS pour le HTML), de préciser les options d'import des tableaux, d'imposer une langue ou un mode de segmentation et de protéger votre corpus par un mot de passe. Dans cette fenêtre d'options, les titres des rubriques contiennent des liens vers la documentation.
+
+* Import par des URL : textes en français
     * Lautréamont, [*Les Chants de Maldoror*](http://athena.unige.ch/athena/lautreamont/laut_mal.html)
     <!-- stopwords, « yeux » et « corps », pas de modification de la tokénisation (« n’est » et « l’homme ») -->
     * Rabelais, [*Pantagruel*](http://athena.unige.ch/athena/rabelais/rabelais_pantagruel.html) <!-- pas de stopwords adaptés, distribution du nom de Pantagruel -->
