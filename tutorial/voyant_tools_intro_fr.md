@@ -70,7 +70,7 @@ Si vous souhaitez explorer un corpus qui vous est familier, il vous suffit de di
 
 ## 2. Distances de lecture : une première approche
 
-`Cirrus`. Observez le [nuage de mots](https://voyant-tools.org/tool/Cirrus/?corpus=75b440214b14d5402b2d9ab1e0150d17&toolFlow=contexts) reproduit ci-dessus. Que représente ce nuage, à votre avis ? Parmi ses caractéristiques, lesquelles sont issues d’une quantification du texte ? Comment ses autres propriétés sont-elles générées ? Tous les mots vous semblent-ils pertinents ? Manque-t-il des mots ? – Quand vous avez réfléchi à ces questions, manipulez les paramètres du nuage : changez le nombre de termes pris en compte au moyen du curseur, puis modifiez la liste des mots vides en accédant aux options – l'icône apparaît au survol au-dessus du panneau et est identifiée par l'info-bulle, selon un principe constant de l'interface.
+`Cirrus`. Observez le [nuage de mots](https://voyant-tools.org/tool/Cirrus/?corpus=75b440214b14d5402b2d9ab1e0150d17&toolFlow=contexts) reproduit ci-dessus. Que représente ce nuage, à votre avis ? Parmi ses caractéristiques, lesquelles sont issues d’une quantification du texte ? Comment ses autres propriétés sont-elles générées ? Tous les mots vous semblent-ils pertinents ? Manque-t-il des mots ? – Quand vous avez réfléchi à ces questions, manipulez les paramètres du nuage : changez le nombre de termes pris en compte au moyen du curseur, puis modifiez la liste des mots filtrés (mots vides, ou [*stopwords*](https://github.com/aurelberra/stopwords/blob/master/rationale.md#about-stopwords)) en accédant aux options – l'icône apparaît au survol au-dessus du panneau et est identifiée par l'info-bulle, selon un principe constant de l'interface.
 
 Pour découvrir l’interface de Voyant, observons maintenant ce [même texte à diverses échelles et au prisme d’autres outils](https://voyant-tools.org/?corpus=75b440214b14d5402b2d9ab1e0150d17).
 
@@ -144,27 +144,34 @@ Remarquez en passant que certains paramètres peuvent être contrôlés par une 
 Voyant vous autorise à créer un corpus de plusieurs manières :
 
 * Vous pouvez **copier-coller** du texte.
-* Vous pouvez saisir une ou plusieurs **URL** que Voyant ira visiter (je vous suggère d'observer ainsi [la page la plus longue de Wikipédia](https://en.wikipedia.org/wiki/List_of_compositions_by_Franz_Schubert), qui requiert clairement la liste de mots vides « Multilingue »).
-* Vous pouvez **charger** un texte à partir d’un ou plusieurs fichiers (texte brut, HTML, XML, RTF, DOCX, PDF – ou archive ZIP contenant en un fichier compressé des fichiers dans d’autres formats).
+* Vous pouvez saisir une ou plusieurs **URL** que Voyant ira visiter.
 * Vous pouvez **ouvrir** l’un des corpus qui sont disponibles par défaut, au moyen du bouton « Ouvrir ».
+* Vous pouvez **charger** un texte à partir d’un ou plusieurs fichiers (texte brut, HTML, XML, RTF, DOCX, PDF ou archive ZIP contenant en un fichier compressé des fichiers dans d’autres formats).
+
+Voici quelques exemples.
 
 ### Démonstration sur quelques corpus
 
 Avant de charger ces corpus, prenez le temps de découvrir les options d’import. Il s'agit de fonctions avancées, qui vous permettent de nommer votre corpus, de ne charger qu'une partie du texte (grâce à des expressions rationnelles pour le texte brut, à des expressions XPath pour le XML, à des sélecteurs en CSS pour le HTML), de préciser les options d'import des tableaux, d'imposer une langue ou un mode de segmentation et de protéger votre corpus par un mot de passe. Dans cette fenêtre d'options, les titres des rubriques contiennent des liens vers la documentation.
 
-* Import par des URL : textes en français
-    * Lautréamont, [*Les Chants de Maldoror*](http://athena.unige.ch/athena/lautreamont/laut_mal.html)
-    <!-- stopwords, « yeux » et « corps », pas de modification de la tokénisation (« n’est » et « l’homme ») -->
-    * Rabelais, [*Pantagruel*](http://athena.unige.ch/athena/rabelais/rabelais_pantagruel.html) <!-- pas de stopwords adaptés, distribution du nom de Pantagruel -->
-        * Intégration à une page HTML : [exemple 1](https://aurelienberra.org/temp/voyant.html) et [code](https://github.com/aurelberra/aurelienberra/blob/master/static/temp/voyant.html)
-        * Intégration à une page HTML : [exemple 2](http://voyant-tools.org/docs/#!/guide/search), la page documentant les modes de requête
-* Import de fichiers TXT : textes en latin
-    * César, *La Guerre des Gaules*, texte du PHI5 nettoyé
-    <!-- sélectionner une liste de stopwords, pas de lemmatisation -->
-    * César, *La Guerre des Gaules*, même texte lemmatisé puis un peu nettoyé
-    <!-- texte lemmatisé avec le module du CLTK : évoquer le « pre-processing », que VT réduit au minimum -->
-    <!-- (erreurs comme « ito » pour « iter », « itaque », « item »… ; rectifié « edo » pour « sum », « reor » pour « res », « bellus » pour « bellum », « neo » pour « ne », « dius » pour « dies », et quelques autres formes ; lemmatisé les entités nommées « Gallia », « Caesar » et « Romani/Romanus ») -->
-    <!-- « con » est la trace des choix du lemmatiseur (« con- ») -->
+Les fichiers mentionnés sont disponibles [ici](https://github.com/aurelberra/voyant_tools/tree/master/data) (pour les télécharger, faites un clic droit, CTRL-clic ou un clic à deux doigts, en fonction de la configuration de votre système).
+
+* Import par des URL
+    * Anglais : [la page de Wikipédia réputée la plus longue](https://en.wikipedia.org/wiki/List_of_compositions_by_Franz_Schubert)
+        * Cette page requiert clairement la liste de mots vides « Multilingue », n'est-ce pas ?
+    * Français moderne : Lautréamont, [*Les Chants de Maldoror*](http://athena.unige.ch/athena/lautreamont/laut_mal.html)
+        * La prévalence du vocabulaire corporel est frappante.
+        * Sur un plan technique, remarquez que le découpage en mots (tokénisation, ou segmentation) par défaut à l'import du texte conserve comme unités des éléments contenant une apostrophe tels que « n’est ». Vous pouvez changer ce réglage avant de créer le corpus en choisissant dans les options de « Préparation/*Processing* » la segmentation par « Limites de mots simples/*Simple Word Boundaries* » (« n’est » n'apparaît plus comme un mot et ses deux composantes, « n » et « est », sont filtrées).
+        * Même si « l’homme » disparaît ainsi pour accroître le nombre d'occurrences de « homme », il reste que le texte n'est pas lemmatisé, mais découpé en formes graphiques : « homme » et « hommes » sont séparées. Selon les langues et les objectifs de l'analyse, l'absence actuelle de lemmatisation dans Voyant Tools est un obstacle plus ou moins grave. Dans de nombreux cas, des requêtes un peu plus complexes suffisent : ici, « homme* » et « homme|hommes » permettent de regrouper les formes « homme » et « hommes », de même que « faire|fais|fait » regroupe les formes les plus fréquentes du verbe « faire ». Explorez ces possibilités en cliquant sur le point d'interrogation ou en consultant la page qui documente les [modes de requête](http://voyant-tools.org/docs/#!/guide/search). Si la lemmatisation est indispensable à votre recherche, elle devra faire partie d'une phase préparatoire, d'un pré-traitement spécifique à la langue de votre corpus, avant l'import dans Voyant Tools.
+    * Moyen français : Rabelais, [*Pantagruel*](http://athena.unige.ch/athena/rabelais/rabelais_pantagruel.html)
+        * Je vous suggère d'observer par exemple les distributions des noms propres Pantagruel et Panurge.
+        * Pour la plupart des corpus non contemporains (comme le moyen français ici), témoignant d'un état de langue non classique (grec archaïque) ou marqués par une forte fluidité orthographique (éditions non normalisées), les mots vides ne seront pas adaptés d'emblée. Il est souvent possible de modifier la liste proposée par défaut pour éliminer les formes les plus embarrassantes pour l'analyse. Pour un travail plus précis, il faudra sans doute trouver une liste pertinente, ce qui n'est pas évident s'il s'agit d'un corpus peu ou prou ancien. Bien que toute recherche ait ses propres critères de pertinence en la matière, progressivement définis, je vous conseille de rendre publiques vos listes si vous passez un certain temps à les élaborer. Dans le domaine philologique, j'apprécie par exemple l'ouverture du Classical Language Toolkit ([CLTK](http://docs.cltk.org/)).
+    * À propos d'URL, j'insére ici deux exemples d'intégration de Voyant Tools à une page HTML : [exemple 1](https://aurelienberra.org/temp/voyant.html) et [code](https://github.com/aurelberra/aurelienberra/blob/master/static/temp/voyant.html) correspondant ; [exemple 2](http://voyant-tools.org/docs/#!/guide/search), issu de la documentation de Voyant.
+* Import de fichiers TXT
+    * Latin : César, *La Guerre des Gaules*
+        * Le texte du PHI 5 a été légèrement nettoyé. Sélectionnez bien sûr les mots vides de la liste « Latin ». Voyez que, faute de lemmatisation, les formes du nom de César (« caesar, caesarem ») ou des mots signifiant « camp » et « ennemis » (« castra, castris » et « hostium, hostes, hostibus ») sont distinguées.
+    * Latin : César, *La Guerre des Gaules*, texte lemmatisé
+        * Sans être parfaite, la lemmatisation suffit pour constater la différence avec le texte précédent. Pour vous en assurer, vous pouvez charger les textes dans deux fenêtres ou exporter des vues ou des listes.
 * Import de fichiers HTML, compressés dans une archive ZIP : textes en français, issus du Web
     * François Bon, [*Le Tiers Livre*](http://www.tierslivre.net/) (pour respecter les droits de l’auteur, les fichiers ne sont pas conservés)
     <!-- acquisition des données : wget -->
