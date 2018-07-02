@@ -1,7 +1,3 @@
 # Voyant Tools
 
-Materials related to the Voyant Tools text analysis platform: tutorial and workshop script.
-
-Matériaux liés à la plateforme d’analyse textuelle Voyant Tools : tutoriel et notes en vue d’un atelier.
-
-[EN on Voyant Tools server](https://voyant-tools.org/?lang=en) | [FR sur les serveurs d’Huma-Num](http://voyant.tools.huma-num.fr/?lang=fr)
+Materials related to the Voyant Tools ([EN](https://voyant-tools.org/?lang=en) | [FR](http://voyant.tools.huma-num.fr/?lang=fr)) text analysis platform: [tutorial](https://github.com/aurelberra/voyant_tools/blob/master/tutorial/voyant_tools_intro_fr.md) and [workshop](https://github.com/aurelberra/voyant_tools/blob/master/workshop/2018-06-28_voyant_tools_intro_paris.md) script in French.
