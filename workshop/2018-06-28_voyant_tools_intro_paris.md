@@ -7,7 +7,11 @@ Language: French
 Copyright: CC-BY
 ---
 
+---
+
 *Pour une version mise à jour, voir le [tutoriel](https://github.com/aurelberra/voyant_tools/blob/master/tutorial/voyant_tools_intro_fr.md) issu de cet atelier.*
+
+---
 
 # Introduction à Voyant Tools ![Logo de Voyant Tools](../images/voyant-logo_0.png "Logo de Voyant Tools")
 
