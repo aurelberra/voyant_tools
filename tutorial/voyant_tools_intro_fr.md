@@ -188,16 +188,16 @@ Puisqu’il est question d’URL, j’insère ici deux exemples d’intégration
 
 #### Import de fichiers TXT
 
-* Latin : César, *La Guerre des Gaules*
+* Latin : César, *La Guerre des Gaules* ([fichier](https://github.com/aurelberra/voyant_tools/blob/master/data/caesar_bellum_gallicum.txt))
     * Le texte du PHI 5 a été légèrement nettoyé. Sélectionnez bien sûr les mots vides de la liste « Latin ». Voyez que, faute de lemmatisation, les formes du nom de César (« *caesar*, *caesarem* ») ou des mots signifiant « camp » et « ennemis » (*« castra*, *castris* » et « *hostium*, *hostes*, *hostibus* ») sont distinguées.
-* Latin : César, *La Guerre des Gaules*, texte lemmatisé
+* Latin : César, *La Guerre des Gaules*, texte lemmatisé ([fichier](https://github.com/aurelberra/voyant_tools/blob/master/data/caesar_bellum_gallicum_lem.txt))
     * Sans être parfaite, la lemmatisation suffit ici pour constater la différence avec le texte précédent. Pour vous en assurer, vous pouvez charger les textes dans deux fenêtres et exporter certaines vues ou listes.
 
 #### Import de fichiers HTML ou XML, compressés dans une archive ZIP
 
 * Français, espagnol et anglais : [*Digital Humanities Quarterly* 12.1](http://www.digitalhumanities.org/dhq/vol/12/1/), numéro de revue sur les humanités numériques hispanophones et francophones, en accès libre (licence CC-BY-ND)
 * Comme précédemment, sélectionnez la liste de stopwords « Multilingue ». Il est utile en l’occurrence d’éditer la liste pour filtrer des termes comme « http », « *digital* » et « *humanities* ».
-* Notez que dans le fichier ZIP proposé en exemple, j’ai exclu quatre fichiers XML de la source, en raison d’une erreur de lecture de certains nœuds. Si les droits d’auteur et la configuration des sites vous le permettent, il est assez aisé de collecter des pages HTML, par exemple avec l’outil en ligne de commande [`wget`](https://programminghistorian.org/en/lessons/automated-downloading-with-wget).
+* Notez que dans le fichier ZIP proposé en exemple ([fichiers XML](https://github.com/aurelberra/voyant_tools/blob/master/data/dhq_12_1_xml.zip)), j’ai exclu quatre fichiers XML de la source, en raison d’une erreur de lecture de certains nœuds. Si les droits d’auteur et la configuration des sites vous le permettent, il est assez aisé de collecter des pages HTML, par exemple avec l’outil en ligne de commande [`wget`](https://programminghistorian.org/en/lessons/automated-downloading-with-wget) (vous obtenez par exemple ces [fichiers HTML](https://github.com/aurelberra/voyant_tools/blob/master/data/dhq_12_1_html.zip)).
 
 
 ### Exploration libre
