@@ -1,8 +1,8 @@
 ---
 Title: Introduction à Voyant Tools
 Author: Aurélien Berra
-Date: 2018-06-30
-Description: "Cette introduction francophone à Voyant Tools peut être utilisée pour découvrir la plateforme d’une façon autonome ou servir de base à un atelier."
+Date: 2020-12-12
+Description: "Cette introduction francophone à Voyant Tools peut être utilisée pour découvrir la plateforme d’une façon autonome aussi bien que dans le cadre d’un cours ou d’un atelier."
 Language: French
 Copyright: CC-BY
 ---
@@ -31,7 +31,9 @@ Le but de ce tutoriel est de vous accompagner dans la découverte de Voyant Tool
 
 ## 0. Préparatifs
 
-Voyant Tools est librement accessible sur son site canadien, <https://voyant-tools.org>, ou sur son site miroir français <http://voyant.tools.huma-num.fr>. Cependant, je vous recommande vivement d’installer la version serveur de Voyant Tools sur votre machine, en suivant ces consignes : <https://github.com/sgsinclair/VoyantServer/wiki/VoyantServer-Desktop>. Cette version vous permettra de faire fonctionner la plateforme localement, sans besoin d’une connexion Internet, sans recours à une mémoire cache et donc en respectant les droits sur les documents et d’éventuels besoins de confidentialité, et surtout plus vite et plus souplement, grâce à la possibilité de relancer le serveur s’il est ralenti ou planté et de manier plus aisément de gros corpus.
+Voyant Tools est librement accessible sur son site canadien, <https://voyant-tools.org>, ou sur son site miroir français <http://voyant.tools.huma-num.fr>.
+
+Il est également possible d’installer la version serveur de Voyant Tools sur votre machine, en suivant ces consignes : <https://github.com/sgsinclair/VoyantServer/wiki/VoyantServer-Desktop>. Cette version vous permettra de faire fonctionner la plateforme localement, sans besoin d’une connexion Internet, sans recours à une mémoire cache et donc en respectant les droits sur les documents et d’éventuels besoins de confidentialité, et surtout plus vite et plus souplement, grâce à la possibilité de relancer le serveur s’il est ralenti ou planté et de manier plus aisément de gros corpus.
 
 Il s’agit simplement de télécharger et décompresser le dossier « VoyantServer\*_\*-M\*.zip » dans le dossier où vous mettez vos applications (je remplace ici les chiffres par des astérisques : prenez la version la plus récente), de lancer l’application en double-cliquant sur le fichier « VoyantServer.jar » (votre ordinateur vous demandera peut-être d’[installer Java](https://www.java.com/fr/download/)) et d’attendre que votre navigateur s’ouvre à une adresse locale (par défaut, http://127.0.0.1:8888/ ; appuyer sur le bouton « Open Web » a le même effet).
 
