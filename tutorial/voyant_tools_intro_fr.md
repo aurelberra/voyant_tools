@@ -159,7 +159,7 @@ Pour charger vos corpus dans Voyant, utilisez la version locale que vous avez in
 
 La langue de l’interface peut être modifiée dès la page d’accueil et à tout moment en cliquant sur l’icône prévue à cet effet (voir la [documentation](https://voyant-tools.org/docs/#!/guide/languages)). Remarquez cependant que la langue est l’un des paramètres qui peuvent être contrôlés par une modification de l’URL de base : <https://voyant-tools.org/?lang=fr> affiche l’interface en français, tandis que <https://voyant-tools.huma-num.fr//?lang=en> affiche l’interface en anglais.
 
-De la même façon, l’URL de votre corpus peut vous servir de signet, si vous copiez la chaîne de caractères qui constitue son identifiant unique (essayez d’ajouter à l’URL de base `?corpus=75b440214b14d5402b2d9ab1e0150d17` – reconnaissez-vous le texte ?). Les corpus créés sur le serveur de Voyant Tools ont une certaine pérennité : ils demeurent accessibles tant qu’ils sont visités régulièrement, par exemple une fois toutes les trois semaines.
+De la même façon, l’URL de votre corpus peut vous servir de signet, si vous copiez la chaîne de caractères qui constitue son identifiant unique (essayez d’ajouter à l’URL de base `?corpus=eaebf823f5d95279111707d046e3c75c` – reconnaissez-vous le texte ?). Les corpus créés sur le serveur de Voyant Tools ont une certaine pérennité : ils demeurent accessibles tant qu’ils sont visités régulièrement, par exemple une fois toutes les trois semaines.
 
 Voyant vous autorise à créer un corpus de plusieurs manières. L’Unicode (UTF-8) est recommandé et le texte brut est le format le plus typique, mais le plus souvent d’autres encodages et formats fonctionneront parfaitement.
 
