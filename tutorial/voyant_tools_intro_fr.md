@@ -75,6 +75,8 @@ En 2016, j’ai réalisé la traduction française de l’interface, à la suite
 
 En 2017-2018, j’ai produit des listes de [*stopwords* pour le grec et le latin](https://github.com/aurelberra/stopwords), qui ont été intégrées à Voyant Tools.
 
+Depuis 2021, la plateforme est également l’outil principal d’un cours de licence intitulé « Faire ses humanités numériques », que j’assure à l’université Paris-Nanterre.
+
 ### Voyant Tools et la construction des humanités numériques
 
 Il existe une tension entre l’idéal, ou la tentation, de l’outil unique omnipotent et la lente acquisition d’une culture computationnelle qui permet l’usage d’outils spécialisés (encodage, transformation, analyse textuelle, analyse de réseaux, visualisation de données, etc.), leur adaptation, voire leur création. Voyant Tools résout en partie cette tension par sa modularité et son caractère évolutif.
