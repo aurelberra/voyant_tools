@@ -28,24 +28,21 @@ Le but de ce tutoriel est de vous accompagner dans la découverte de Voyant Tool
 
 ![Vue par défaut de Voyant Tools](../images/voyant_skin.png "Vue par défaut de Voyant Tools")
 
-
 ## 0. Préparatifs
 
-Voyant Tools est librement accessible sur son site canadien, <https://voyant-tools.org>, ou sur son site miroir français <https://voyant-tools.huma-num.fr/>.
+Voyant Tools est librement accessible sur son site canadien, <https://voyant-tools.org>. (Un site miroir français hébergé par l'infrastructure de recherche Huma-Num a existé entre 2015 et 2023.)
 
 Il est également possible d’installer la version serveur de Voyant Tools sur votre machine, en suivant ces consignes : <https://github.com/voyanttools/VoyantServer>. Cette version vous permettra de faire fonctionner la plateforme localement, sans besoin d’une connexion Internet, sans recours à une mémoire cache et donc en respectant les droits sur les documents et d’éventuels besoins de confidentialité, et surtout plus vite et plus souplement, grâce à la possibilité de relancer le serveur s’il est ralenti ou planté et de manier plus aisément de gros corpus.
 
-Il s’agit simplement de télécharger et décompresser le dossier « VoyantServer\*_\*-M\*.zip » dans le dossier où vous mettez vos applications (je remplace ici les chiffres par des astérisques : prenez la version la plus récente), de lancer l’application en double-cliquant sur le fichier « VoyantServer.jar » (votre ordinateur vous demandera peut-être d’[installer Java](https://www.java.com/fr/download/)) et d’attendre que votre navigateur s’ouvre à une adresse locale (par défaut, http://127.0.0.1:8888/ ; appuyer sur le bouton « Open Web » a le même effet).
+Il s’agit simplement de télécharger et décompresser le dossier « VoyantServer\*_\*-M\*.zip » dans le dossier où vous mettez vos applications (je remplace ici les chiffres par des astérisques : prenez la version la plus récente), de lancer l’application en double-cliquant sur le fichier « VoyantServer.jar » (votre ordinateur vous demandera peut-être d’[installer Java](https://www.java.com/fr/download/)) et d’attendre que votre navigateur s’ouvre à une adresse locale (par défaut, <http://127.0.0.1:8888/ >; appuyer sur le bouton « Open Web » a le même effet).
 
 Si vous souhaitez explorer un corpus qui vous est familier, il vous suffit de disposer d’un ou de plusieurs fichiers dans un format courant (texte brut, HTML ou XML, etc.), ou bien de connaître l’URL d’une page où le texte est accessible sans barrière. Je détaillerai ces options sous la rubrique « Créer un corpus ».
 
 ![Page d’accueil de Voyant Tools](../images/voyant_home.png "Page d’accueil de Voyant Tools")
 
-
 ## 1. À propos de Voyant Tools
 
 > Voyant Tools is a web-based text analysis, reading and visualization environment. Developed by a small team of digital humanities scholars led by Stéfan Sinclair and Geoffrey Rockwell, Voyant Tools is designed for a very wide range of applications and users, from students to researchers and journalists to market analysts. It strives to balance user-friendliness with a range of analytic and interpretive functions. (Incipit du fichier [*Readme*](https://github.com/voyanttools/Voyant) de l’entrepôt GitHub contenant le code de Voyant Tools)
-
 
 ### Historique du projet
 
@@ -85,12 +82,11 @@ La prochaine étape importante sera probablement celle des carnets Spyral. Au de
 
 ![Nuage de mots plus ou moins mystérieux](../images/frankenstein_cloud.png "Nuage de mots plus ou moins mystérieux")
 
-
 ## 2. Distances de lecture : une première approche
 
-`Cirrus`. Observez le nuage de mots reproduit ci-dessus et disponible également [dans une vue séparée](https://voyant-tools.huma-num.fr/?corpus=eaebf823f5d95279111707d046e3c75c&lang=fr&view=Cirrus&toolFlow=contexts). Que représente ce nuage, à votre avis ? Parmi ses caractéristiques, lesquelles sont issues d’une quantification du texte ? Tous les mots vous semblent-ils pertinents ? Manque-t-il des mots ? – Quand vous aurez réfléchi à ces questions, manipulez les paramètres du nuage : changez le nombre de termes pris en compte au moyen du curseur, puis modifiez la liste des mots vides filtrés (ce sont des [*stopwords*](https://github.com/aurelberra/stopwords/blob/master/rationale.md#about-stopwords)) en accédant aux options – l’icône apparaît au survol au-dessus du panneau et est identifiée par l’info-bulle, selon un principe constant de l’interface.
+`Cirrus`. Observez le nuage de mots reproduit ci-dessus et disponible également [dans une vue séparée](https://voyant-tools.org/?corpus=frank&lang=fr&view=Cirrus). Que représente ce nuage, à votre avis ? Parmi ses caractéristiques, lesquelles sont issues d’une quantification du texte ? Tous les mots vous semblent-ils pertinents ? Manque-t-il des mots ? – Quand vous aurez réfléchi à ces questions, manipulez les paramètres du nuage : changez le nombre de termes pris en compte au moyen du curseur, puis modifiez la liste des mots vides filtrés (ce sont des [*stopwords*](https://github.com/aurelberra/stopwords/blob/master/rationale.md#about-stopwords)) en accédant aux options – l’icône apparaît au survol au-dessus du panneau et est identifiée par l’info-bulle, selon un principe constant de l’interface.
 
-Observez maintenant ce [même texte à diverses échelles et au prisme d’autres outils](https://voyant-tools.huma-num.fr/?corpus=eaebf823f5d95279111707d046e3c75c&lang=fr).
+Observez maintenant ce [même texte à diverses échelles et au prisme d’autres outils](https://voyant-tools.org/?corpus=frank&lang=fr).
 
 `Termes`/`Terms`. La fondamentale table des fréquences. Avez-vous vu les colonnes cachées (survolez les en-têtes des colonnes affichées et cliquez sur les flèches) ? Connaissiez-vous les *sparklines*, qui résument dans la colonne de droite les tendances des termes au fil du corpus, en indiquant les valeurs minimale, maximale et finale ?
 
@@ -99,7 +95,6 @@ Observez maintenant ce [même texte à diverses échelles et au prisme d’autre
 `Contextes`/`Contexts`. L’indispensable concordance (du type Keyword in Context, KWIC). Avez-vous remarqué les curseurs, en particulier celui qui se nomme « Contexte » ? Un menu vous donne par ailleurs la possibilité de restreindre le corpus à certains documents.
 
 ![Liste des outils de Voyant Tools](../images/tools_list.png "Liste des outils de Voyant Tools")
-
 
 ## 3. Faisons le tour de l’atelier numérique
 
@@ -150,16 +145,15 @@ Voici les outils essentiels que je vous propose de passer en revue :
 
 ![Nuage de mots contenant une sélection arbitraire, mais équilibrée, de mots vides utilisés dans les différentes listes proposées par Voyant Tools](../images/voyant_multilingual_stoplists_sample.png "Nuage de mots contenant une sélection arbitraire, mais équilibrée, de mots vides utilisés dans les différentes listes proposées par Voyant Tools")
 
-
-## 4. Explorez vos corpus !
+## 4. Explorez vos corpus
 
 ### Créer un corpus
 
-Pour charger vos corpus dans Voyant, utilisez la version locale que vous avez installée sur votre ordinateur (voyez la section « Préparatifs » ci-dessus) ou bien l’un des serveurs suivants : <https://voyant-tools.huma-num.fr/> ou <https://voyant-tools.org>, qui afficheront par défaut une interface dans la langue de votre navigateur.
+Pour charger vos corpus dans Voyant, utilisez la version locale que vous avez installée sur votre ordinateur (voyez la section « Préparatifs » ci-dessus) ou bien le serveur suivant : <https://voyant-tools.org>, qui affichera par défaut une interface dans la langue de votre navigateur.
 
-La langue de l’interface peut être modifiée dès la page d’accueil et à tout moment en cliquant sur l’icône prévue à cet effet (voir la [documentation](https://voyant-tools.org/docs/#!/guide/languages)). Remarquez cependant que la langue est l’un des paramètres qui peuvent être contrôlés par une modification de l’URL de base : <https://voyant-tools.org/?lang=fr> affiche l’interface en français, tandis que <https://voyant-tools.huma-num.fr//?lang=en> affiche l’interface en anglais.
+La langue de l’interface peut être modifiée dès la page d’accueil et à tout moment en cliquant sur l’icône prévue à cet effet (voir la [documentation](https://voyant-tools.org/docs/#!/guide/languages)). Remarquez cependant que la langue est l’un des paramètres qui peuvent être contrôlés par une modification de l’URL de base : <https://voyant-tools.org/?lang=fr> affiche l’interface en français, tandis que <https://voyant-tools.org/?lang=en> affiche l’interface en anglais.
 
-De la même façon, l’URL de votre corpus peut vous servir de signet, si vous copiez la chaîne de caractères qui constitue son identifiant unique (essayez d’ajouter à l’URL de base `?corpus=eaebf823f5d95279111707d046e3c75c` – reconnaissez-vous le texte ?). Les corpus créés sur le serveur de Voyant Tools ont une certaine pérennité : ils demeurent accessibles tant qu’ils sont visités régulièrement, par exemple une fois toutes les trois semaines.
+De la même façon, l’URL de votre corpus peut vous servir de signet, si vous copiez la chaîne de caractères qui constitue son identifiant unique. Essayez d’ajouter à l’URL de base `?corpus=006afe65cc8f5926a4a698cd46654e51` – reconnaissez-vous le texte ? Il se pourrait que le corpus ne soit plus disponible à l'heure où vous lisez ceci, car les corpus créés sur le serveur de Voyant Tools ont une certaine pérennité : ils demeurent accessibles tant qu’ils sont visités régulièrement, par exemple une fois toutes les trois semaines.
 
 Voyant vous autorise à créer un corpus de plusieurs manières. L’Unicode (UTF-8) est recommandé et le texte brut est le format le plus typique, mais le plus souvent d’autres encodages et formats fonctionneront parfaitement.
 
@@ -205,21 +199,19 @@ Puisqu’il est question d’URL, j’insère ici deux exemples d’intégration
 * Comme précédemment, sélectionnez la liste de stopwords « Multilingue ». Il est utile en l’occurrence d’éditer la liste pour filtrer des termes comme « http », « *digital* » et « *humanities* ».
 * Notez que dans le fichier ZIP proposé en exemple ([fichiers XML](https://github.com/aurelberra/voyant_tools/blob/master/data/dhq_12_1_xml.zip)), j’ai exclu quatre fichiers XML de la source, en raison d’une erreur de lecture de certains nœuds. Si les droits d’auteur et la configuration des sites vous le permettent, il est assez aisé de collecter des pages HTML, par exemple avec l’outil en ligne de commande [`wget`](https://programminghistorian.org/en/lessons/automated-downloading-with-wget) (vous obtenez par exemple ces [fichiers HTML](https://github.com/aurelberra/voyant_tools/blob/master/data/dhq_12_1_html.zip)).
 
-
 ### Exploration libre
 
 Il est temps pour moi de vous laisser expérimenter.
 
-
 ## 5. Et ensuite ? ![Logo de Voyant Tools](../images/voyant-logo_0.png "Logo de Voyant Tools")
 
-Outre la version française (sur le serveur de [Voyant Tools](https://voyant-tools.org/?lang=fr) ou sur celui d’[Huma-Num](https://voyant-tools.huma-num.fr//?lang=fr)), des versions dans d’[autres langues](https://voyant-tools.org/docs/#!/guide/languages) sont mises en ligne à mesure que des collègues traduisent l’interface. La [version serveur](https://github.com/voyanttools/VoyantServer) de Voyant Tools vous permet de faire fonctionner localement la plateforme. Le [code](https://github.com/voyanttools/Voyant) de la plateforme est publié en *open source* (licence GPL).
+Outre la version française (sur le serveur de [Voyant Tools](https://voyant-tools.org/?lang=fr)), des versions dans d’[autres langues](https://voyant-tools.org/docs/#!/guide/languages) sont mises en ligne à mesure que des collègues traduisent l’interface. La [version serveur](https://github.com/voyanttools/VoyantServer) de Voyant Tools vous permet de faire fonctionner localement la plateforme. Le [code](https://github.com/voyanttools/Voyant) de la plateforme est publié en *open source* (licence GPL).
 
 Pour plus de détails, consultez le [manuel de Voyant Tools](https://voyant-tools.org/docs/#!/guide/start) (licence CC-BY). Un [tutoriel](https://voyant-tools.org/docs/#!/guide/tutorial) anglophone destiné à servir de base pour l’organisation d’ateliers ou de formations est en cours de rédaction. Pour savoir qui a fait quoi, selon quels principes et en employant quelles technologies, la page [*About*](https://voyant-tools.org/docs/#!/guide/about) de cette documentation est tout indiquée. La [*Gallery*](https://voyant-tools.org/docs/#!/guide/gallery) fournit des exemples variés et le site [Hermeneuti.ca](http://hermeneuti.ca/) illustre l’insertion de panneaux de Voyant dans des essais en ligne.
 
 Vous pouvez signaler des problèmes ou faire des suggestions sur l'entrepôt de données du logiciel sur [GitHub](https://github.com/voyanttools/Voyant). Sur Twitter, le compte [@VoyantTools](https://twitter.com/VoyantTools) est un efficace canal d’information sur les évolutions de la plateforme et les usages que d’autres utilisateurs en font.
 
-Enfin, toutes vos remarques sur ce tutoriel, ou sur l’interface francophone de Voyant, sont bienvenues : Aurélien Berra, <aurelien.berra@parisnanterre.fr> et [@aurelberra](https://twitter.com/aurelberra). N’hésitez pas à partager vos impressions, remarques et questions.
+Enfin, toutes vos remarques sur ce tutoriel, ou sur l’interface francophone de Voyant, sont bienvenues : Aurélien Berra, <aurelien.berra@parisnanterre.fr> et `@aurelberra` sur [Mastodon](https://social.sciences.re/@aurelberra) ou [Twitter](https://twitter.com/aurelberra). N’hésitez pas à partager vos impressions, remarques et questions.
 
 Je vous souhaite de fructueuses lectures, numériques et humaines.
 
