@@ -1,7 +1,7 @@
 ---
 Title: Introduction à Voyant Tools
 Author: Aurélien Berra
-Date: 2022-01-17
+Date: 2023-05-30
 Description: "Cette introduction francophone à Voyant Tools peut être utilisée pour découvrir la plateforme d’une façon autonome aussi bien que dans le cadre d’un cours ou d’un atelier."
 Language: French
 Copyright: CC-BY
@@ -13,7 +13,7 @@ Copyright: CC-BY
 
 L’élaboration de cette plateforme s’inscrit dans un projet plus vaste, présenté dans un livre : Geoffrey Rockwell et Stéfan Sinclair, *Hermeneutica. Computer-Assisted Interpretation in the Humanities*, Cambridge, Massachusetts, MIT Press, 2016, dont [Hermeneuti.ca](http://hermeneuti.ca/) est le site compagnon. Les outils ne sont jamais seulement des outils.
 
-Le but de ce tutoriel est de vous accompagner dans la découverte de Voyant Tools, ou de vous aider à mieux l’utiliser. Voici le parcours que je vous propose pour comprendre le projet de cette plateforme, guider votre regard dans son interface, vous aider à y analyser des corpus et – qui sait ? – vous faire réfléchir sur le sens et l’intérêt de ces explorations :
+Le but de ce tutoriel est de vous accompagner dans la découverte de Voyant Tools (autrement que par la lecture de sa [page Wikipédia](https://en.wikipedia.org/wiki/Voyant_Tools)), ou de vous aider à mieux l’utiliser. Voici le parcours que je vous propose pour comprendre le projet de cette suite d’outils, guider votre regard dans son interface, vous aider à y analyser des corpus et – qui sait ? – vous faire réfléchir sur le sens et l’intérêt de ces explorations :
 
 0. Préparatifs
 1. À propos de Voyant Tools
@@ -30,7 +30,7 @@ Le but de ce tutoriel est de vous accompagner dans la découverte de Voyant Tool
 
 ## 0. Préparatifs
 
-Voyant Tools est librement accessible sur son site canadien, <https://voyant-tools.org>. (Un site miroir français hébergé par l'infrastructure de recherche Huma-Num a existé entre 2015 et 2023.)
+Voyant Tools est librement accessible sur son site canadien, <https://voyant-tools.org>. (Un site miroir français hébergé par l’infrastructure de recherche Huma-Num a existé entre 2015 et 2023.)
 
 Il est également possible d’installer la version serveur de Voyant Tools sur votre machine, en suivant ces consignes : <https://github.com/voyanttools/VoyantServer>. Cette version vous permettra de faire fonctionner la plateforme localement, sans besoin d’une connexion Internet, sans recours à une mémoire cache et donc en respectant les droits sur les documents et d’éventuels besoins de confidentialité, et surtout plus vite et plus souplement, grâce à la possibilité de relancer le serveur s’il est ralenti ou planté et de manier plus aisément de gros corpus.
 
@@ -153,7 +153,7 @@ Pour charger vos corpus dans Voyant, utilisez la version locale que vous avez in
 
 La langue de l’interface peut être modifiée dès la page d’accueil et à tout moment en cliquant sur l’icône prévue à cet effet (voir la [documentation](https://voyant-tools.org/docs/#!/guide/languages)). Remarquez cependant que la langue est l’un des paramètres qui peuvent être contrôlés par une modification de l’URL de base : <https://voyant-tools.org/?lang=fr> affiche l’interface en français, tandis que <https://voyant-tools.org/?lang=en> affiche l’interface en anglais.
 
-De la même façon, l’URL de votre corpus peut vous servir de signet, si vous copiez la chaîne de caractères qui constitue son identifiant unique. Essayez d’ajouter à l’URL de base `?corpus=006afe65cc8f5926a4a698cd46654e51` – reconnaissez-vous le texte ? Il se pourrait que le corpus ne soit plus disponible à l'heure où vous lisez ceci, car les corpus créés sur le serveur de Voyant Tools ont une certaine pérennité : ils demeurent accessibles tant qu’ils sont visités régulièrement, par exemple une fois toutes les trois semaines.
+De la même façon, l’URL de votre corpus peut vous servir de signet, si vous copiez la chaîne de caractères qui constitue son identifiant unique. Essayez d’ajouter à l’URL de base `?corpus=006afe65cc8f5926a4a698cd46654e51` – reconnaissez-vous le texte ? Il se pourrait que le corpus ne soit plus disponible à l’heure où vous lisez ceci, car les corpus créés sur le serveur de Voyant Tools ont une certaine pérennité : ils demeurent accessibles tant qu’ils sont visités régulièrement, par exemple une fois toutes les trois semaines.
 
 Voyant vous autorise à créer un corpus de plusieurs manières. L’Unicode (UTF-8) est recommandé et le texte brut est le format le plus typique, mais le plus souvent d’autres encodages et formats fonctionneront parfaitement.
 
@@ -209,7 +209,7 @@ Outre la version française (sur le serveur de [Voyant Tools](https://voyant-too
 
 Pour plus de détails, consultez le [manuel de Voyant Tools](https://voyant-tools.org/docs/#!/guide/start) (licence CC-BY). Un [tutoriel](https://voyant-tools.org/docs/#!/guide/tutorial) anglophone destiné à servir de base pour l’organisation d’ateliers ou de formations est en cours de rédaction. Pour savoir qui a fait quoi, selon quels principes et en employant quelles technologies, la page [*About*](https://voyant-tools.org/docs/#!/guide/about) de cette documentation est tout indiquée. La [*Gallery*](https://voyant-tools.org/docs/#!/guide/gallery) fournit des exemples variés et le site [Hermeneuti.ca](http://hermeneuti.ca/) illustre l’insertion de panneaux de Voyant dans des essais en ligne.
 
-Vous pouvez signaler des problèmes ou faire des suggestions sur l'entrepôt de données du logiciel sur [GitHub](https://github.com/voyanttools/Voyant). Sur Twitter, le compte [@VoyantTools](https://twitter.com/VoyantTools) est un efficace canal d’information sur les évolutions de la plateforme et les usages que d’autres utilisateurs en font.
+Vous pouvez signaler des problèmes ou faire des suggestions sur l’entrepôt de données du logiciel sur [GitHub](https://github.com/voyanttools/Voyant). Sur Twitter, le compte [@VoyantTools](https://twitter.com/VoyantTools) est un efficace canal d’information sur les évolutions de la plateforme et les usages que d’autres utilisateurs en font.
 
 Enfin, toutes vos remarques sur ce tutoriel, ou sur l’interface francophone de Voyant, sont bienvenues : Aurélien Berra, <aurelien.berra@parisnanterre.fr> et `@aurelberra` sur [Mastodon](https://social.sciences.re/@aurelberra) ou [Twitter](https://twitter.com/aurelberra). N’hésitez pas à partager vos impressions, remarques et questions.
 
