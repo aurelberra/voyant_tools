@@ -1,7 +1,8 @@
 ---
 Title: Introduction à Voyant Tools
 Author: Aurélien Berra
-Date: 2023-05-30
+Date created: 2018-06-30
+Date last updated: 2023-05-30
 Description: "Cette introduction francophone à Voyant Tools peut être utilisée pour découvrir la plateforme d’une façon autonome aussi bien que dans le cadre d’un cours ou d’un atelier."
 Language: French
 Copyright: CC-BY
