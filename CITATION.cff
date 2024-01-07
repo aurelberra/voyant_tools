@@ -1,0 +1,26 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Materials related to the Voyant Tools text analysis
+  platform
+message: >-
+  If you use these materials, please cite them using the
+  metadata from this file.
+type: dataset
+authors:
+  - given-names: Aurélien
+    family-names: Berra
+    email: aurelien.berra@parisnanterre.fr
+    affiliation: Université Paris-Nanterre
+    orcid: 'https://orcid.org/0000-0002-1695-8497'
+repository-code: 'https://github.com/aurelberra/voyant_tools'
+abstract: >-
+  Materials related to the Voyant Tools text analysis
+  platform, including a tutorial and a workshop script, both
+  in French.
+keywords:
+  - textual analysis
+  - tutorial
+license: CC-BY-NC-SA-4.0
