@@ -2,7 +2,7 @@
 Title: Introduction à Voyant Tools
 Author: Aurélien Berra
 Date created: 2018-06-30
-Date last updated: 2023-05-30
+Date last updated: 2025-01-21
 Description: "Cette introduction francophone à Voyant Tools peut être utilisée pour découvrir la plateforme d’une façon autonome aussi bien que dans le cadre d’un cours ou d’un atelier."
 Language: French
 Copyright: CC-BY
@@ -210,9 +210,9 @@ Outre la version française (sur le serveur de [Voyant Tools](https://voyant-too
 
 Pour plus de détails, consultez le [manuel de Voyant Tools](https://voyant-tools.org/docs/#!/guide/start) (licence CC-BY). Un [tutoriel](https://voyant-tools.org/docs/#!/guide/tutorial) anglophone destiné à servir de base pour l’organisation d’ateliers ou de formations est en cours de rédaction. Pour savoir qui a fait quoi, selon quels principes et en employant quelles technologies, la page [*About*](https://voyant-tools.org/docs/#!/guide/about) de cette documentation est tout indiquée. La [*Gallery*](https://voyant-tools.org/docs/#!/guide/gallery) fournit des exemples variés et le site [Hermeneuti.ca](http://hermeneuti.ca/) illustre l’insertion de panneaux de Voyant dans des essais en ligne.
 
-Vous pouvez signaler des problèmes ou faire des suggestions sur l’entrepôt de données du logiciel sur [GitHub](https://github.com/voyanttools/Voyant). Sur Twitter, le compte [@VoyantTools](https://twitter.com/VoyantTools) est un efficace canal d’information sur les évolutions de la plateforme et les usages que d’autres utilisateurs en font.
+Vous pouvez signaler des problèmes ou faire des suggestions sur l’entrepôt de données du logiciel sur [GitHub](https://github.com/voyanttools/Voyant).<!-- Sur Twitter, le compte [@VoyantTools](https://twitter.com/VoyantTools) est un efficace canal d’information sur les évolutions de la plateforme et les usages que d’autres utilisateurs en font. -->
 
-Enfin, toutes vos remarques sur ce tutoriel, ou sur l’interface francophone de Voyant, sont bienvenues : Aurélien Berra, <aurelien.berra@parisnanterre.fr> et `@aurelberra` sur [Mastodon](https://social.sciences.re/@aurelberra) ou [Twitter](https://twitter.com/aurelberra). N’hésitez pas à partager vos impressions, remarques et questions.
+Enfin, toutes vos remarques sur ce tutoriel, ou sur l’interface francophone de Voyant, sont bienvenues : <aurelien.berra@parisnanterre.fr> par courriel ou `@aurelberra` sur [Mastodon](https://social.sciences.re/@aurelberra)<!-- ou [Twitter](https://twitter.com/aurelberra) -->. N’hésitez pas à partager vos impressions, remarques et questions.
 
 Je vous souhaite de fructueuses lectures, numériques et humaines.
 
